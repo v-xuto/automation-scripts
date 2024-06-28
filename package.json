@@ -1,0 +1,14 @@
+{
+  "name": "automation-scripts",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "task-A":"node ./src/Awesome-Azure-Developer-CLI.js",
+    "task-B":"node ./src/Browse-code-samples.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "playwright": "^1.44.1",
+    "single-line-log": "^1.1.2"
+  }
+}
