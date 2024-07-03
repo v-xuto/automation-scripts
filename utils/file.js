@@ -1,26 +1,25 @@
 const fs = require('fs');
-const {COLOR} = require('../utils/base')
+const { COLOR } = require('../utils/base')
 
 
-// 文件写入 TXT格式
-const writeTxt = async (filePath, strList,message = "") => {
-    // 去重
+// The file is written in TXT format
+const writeTxt = async (filePath, strList, message = "") => {
     strList = await duplicate(strList)
     fs.writeFileSync(filePath, strList.join('\n'), 'UTF-8')
-    console.log(COLOR.cyan, `${message ? message : "写入TXT文件成功"}    ${filePath}    ${strList.length}行`);
+    console.log(COLOR.cyan, `${message ? message : "TXT file is written successfully"}    ${filePath}    ${strList.length} items`);
     return filePath
 }
-// 文件写入 JSON格式
-const writeJson = async (filePath, jsonData,message = "") => {
+// The file is written in JSON format
+const writeJson = async (filePath, jsonData, message = "") => {
     let jsonStr = JSON.stringify(jsonData)
     fs.writeFileSync(filePath, jsonStr, 'UTF-8')
-    console.log(COLOR.magenta, `${message ? message : "写入JSON文件成功"}    ${filePath}   `);
+    console.log(COLOR.magenta, `${message ? message : "JSON file is written successfully"}    ${filePath}   `);
 
 }
 
 
-// 文件读取
-const readTxt = async (filePath,message = "") => {
+// Read the file
+const readTxt = async (filePath, message = "") => {
     let lines = []
     const data = fs.readFileSync(filePath, 'UTF-8');
 
@@ -31,7 +30,6 @@ const readTxt = async (filePath,message = "") => {
         }
 
     })
-    // console.log(COLOR.cyan, `${message ? message : "读取文件成功"}    ${filePath}    ${lines.length}行`);
 
     return lines
 }
@@ -40,18 +38,18 @@ const readTxt = async (filePath,message = "") => {
 
 
 
-// 文件反转
+// Write the new file to the old file
 const refreshTxt = async (oldFilePath, newFilePath) => {
     // const oldData = fs.readFileSync(oldFilePath, 'UTF-8');
     const newData = fs.readFileSync(newFilePath, 'UTF-8');
     fs.writeFileSync(oldFilePath, newData, 'UTF-8')
     // fs.writeFileSync(newFilePath, "", 'UTF-8')
-    console.log(COLOR.cyan, `刷新文件成功: new ---> old`);
+    console.log(COLOR.cyan, `New file was successfully written to old file: new ---> old`);
 }
 
 
 
-// 文件比较
+// File compare
 const compare = async (oldFilePath, newFilePath = oldFilePath) => {
 
     let oldArr = await readTxt(oldFilePath)
@@ -72,14 +70,13 @@ const compare = async (oldFilePath, newFilePath = oldFilePath) => {
     let addList = []
     let deleteList = []
 
-    // 新数组有 ， 旧数组无 ， 新增
+    //  old （learn）无 ， new 有 (aws) ： add==需要更新的
     addList = newList.filter(line => !oldList.includes(line));
-
-    // 旧数组有 ， 新数组无 ， 删除
+    // new (aws) 无 old 有（learn） ： 
     deleteList = oldList.filter(line => !newList.includes(line));
 
-    console.log(COLOR.cyan, "新增：", addList.length, addList);
-    console.log(COLOR.cyan, "删除：", deleteList.length, deleteList)
+    console.log(COLOR.cyan, "add: ", addList.length, addList);
+    console.log(COLOR.cyan, "delete: ", deleteList.length, deleteList)
 
     let result = {
         addList: addList,
@@ -90,14 +87,14 @@ const compare = async (oldFilePath, newFilePath = oldFilePath) => {
 }
 
 
-// 处理OneNote文件
-const formatFile = async (oldFilePath,message = "") => {
+// Handle file blank lines and formatting, etc
+const formatFile = async (oldFilePath, message = "") => {
     let lines = await readTxt(oldFilePath)
-    let path = await writeTxt(oldFilePath, lines,`${message ? message : "读取文件成功"}`)
+    let path = await writeTxt(oldFilePath, lines, `${message ? message : "Read file successfully"}`)
     return path
 }
 
-// 检查是否唯一
+// Deduplication of file data
 const duplicate = async (lines) => {
     let duplicateList = []
     let temporaryList = []
@@ -109,9 +106,9 @@ const duplicate = async (lines) => {
         }
     })
     if (duplicateList.length === 0) {
-        // console.log("写入检查，无重复行数");
+        // console.log("Write check, no duplicate lines: ");
     } else {
-        console.log(COLOR.red, "写入检查，重复行数为:", duplicateList);
+        console.log(COLOR.red, "Write check, the number of duplicate lines is: ", duplicateList);
     }
 
     return temporaryList
@@ -120,12 +117,12 @@ const duplicate = async (lines) => {
 
 
 module.exports = {
-    // 文件读写
+
     writeTxt,
     writeJson,
     readTxt,
     refreshTxt,
-    // 文件比较,处理
+
     compare,
     formatFile,
     duplicate

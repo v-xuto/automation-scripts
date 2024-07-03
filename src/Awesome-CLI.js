@@ -1,45 +1,38 @@
-const {Run,COLOR} = require('../utils/base')
+const { Run, COLOR } = require('../utils/base')
 const auto = require('../utils/automation')
 const file = require('../utils/file')
-
+const fs = require('fs');
 
 
 
 require('dotenv').config();
 
-const oldFilePath = process.env.Awesome_oldFilePath
-const newFilePath = process.env.Awesome_newFilePath
-const resultFilePath = process.env.Awesome_result
-const url = process.env.Awesome_URL
+const oldFilePath = process.env.Awesome_CLI_oldFilePath
+const newFilePath = process.env.Awesome_CLI_newFilePath
+const resultFilePath = process.env.Awesome_CLI_result
+const url = process.env.Awesome_CLI_URL
 
 async function main(page) {
 
-    await file.refreshTxt(oldFilePath, newFilePath)
+    if (fs.existsSync(newFilePath)) {
+        await file.refreshTxt(oldFilePath, newFilePath)
+    }
 
     await page.goto(url)
 
-    // 爬取数据
     let querySelector = ".fui-Input__input"
     let attribute = "value"
     let strList = await auto.getWebListByPaging(page, querySelector, attribute)
-    
 
-    // 写入新数据
+
     let rows = await trimStrList(strList)
-    await file.writeTxt(newFilePath, rows , "保存爬取数据: new")
+    await file.writeTxt(newFilePath, rows, "Save the new data")
 
-    // 处理oneNote/旧数据
-    await file.formatFile(oldFilePath , "过滤原有数据: old")
+    await file.formatFile(oldFilePath, "Filter the old data")
 
-    
+    let res = await file.compare(oldFilePath, newFilePath)
 
-   let res = await file.compare(oldFilePath, newFilePath)
-
-   
-
-   await file.writeJson(resultFilePath,res)
-
-    
+    await file.writeJson(resultFilePath, res)
 
 }
 
@@ -48,12 +41,11 @@ Run(false, main)
 
 
 
-// 处理字符串
 const trimStrList = async (strList) => {
     let newList = []
     strList.forEach(str => {
         str = str.replace("azd init -t", "").trim()
-        
+
         if (str.includes("/") && !str.endsWith("/")) {
             str = 'https://github.com/' + str;
         } else {

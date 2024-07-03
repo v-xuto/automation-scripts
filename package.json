@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "task-A":"node ./src/Awesome-Azure-Developer-CLI.js",
-    "task-B":"node ./src/Browse-code-samples.js"
+    "task-A":"node ./src/Awesome-CLI.js",
+    "task-L":"node ./src/Learn-Website.js"
   },
   "dependencies": {
     "dotenv": "^16.4.5",

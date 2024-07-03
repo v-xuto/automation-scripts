@@ -3,7 +3,7 @@ const playwright = require('playwright');
 
 
 
-// 连接本地Chrome浏览器
+// Connect to the local Chrome browser
 // cd 'C:\Program Files\Google\Chrome\Application'    
 // ./chrome.exe --remote-debugging-port=9222
 const connectChrome = async () => {
@@ -13,22 +13,21 @@ const connectChrome = async () => {
     return page
 }
 
-// 连接默认浏览器
+// Connect to the browser provided by playwright
 const defaultBrowser = async () => {
     const browser = await playwright.chromium.launch({
         // channel:"msedge",
         headless: false,
-        slowMo: 2 * 1000,
-        // timeout: 5 * 60 * 1000
-    }); // 启动 Chromium 浏览器  
-    const context = await browser.newContext(); // 创建一个新的浏览器上下文  
-    const page = await context.newPage(); // 在上下文中创建一个新页面  
+        slowMo: 2 * 1000
+    }); 
+    const context = await browser.newContext(); 
+    const page = await context.newPage(); 
     return page
 
 }
 
-// 自动爬取
-// 通过定位器获取页面元素 , 并根据属性是否存在获取指定内容
+// Automatic crawl
+// Gets the page element through the locator and gets the specified content based on whether the attribute exists
 const getWebList = async (page, querySelector, attribute) => {
 
     let nodeList = await page.locator(querySelector).all()
@@ -50,7 +49,8 @@ const getWebList = async (page, querySelector, attribute) => {
 
 }
 
-// 自动爬取 分页模式
+// Automatic crawl
+// Paging mode
 const getWebListByPaging = async (page, querySelector, attribute, paging = "") => {
     if (!paging) {
         return await getWebList(page, querySelector, attribute)
@@ -80,10 +80,10 @@ const getWebListByPaging = async (page, querySelector, attribute, paging = "") =
 
 
 module.exports = {
-    // 连接浏览器
+    
     connectChrome,
     defaultBrowser,
-    // 自动化任务
+
     getWebList,
     getWebListByPaging
 }

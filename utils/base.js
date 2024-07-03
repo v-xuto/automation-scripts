@@ -26,7 +26,7 @@ const auto = require('../utils/automation')
     whiteBG: '\x1B[47m%s\x1B[0m'
 }
 
-// 开始任务
+
 const Run = async (bool, cb) => {
     console.log(COLOR.blueBG, "-----------------START------------------");
     let page = null
@@ -38,7 +38,7 @@ const Run = async (bool, cb) => {
     await cb(page)
     await page.close()
 
-    console.log(COLOR.blueBG, "------------------OVER--------------------");
+    console.log(COLOR.blueBG, "------------------End--------------------");
     process.exit()
 }
 
@@ -46,7 +46,6 @@ const Run = async (bool, cb) => {
 
 
 module.exports = {
-    // 基本
     Run,
     COLOR,
 }
