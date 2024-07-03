@@ -63,7 +63,7 @@ const getWebListByPaging = async (page, querySelector, attribute, paging = "") =
         if (pagingElement) {
             await pagingElement.click()
         }
-        // 获取页面
+
         let aList = await getWebList(page, querySelector, attribute)
         AllList = AllList.concat(aList)
         pagingElement = await page.locator(paging)

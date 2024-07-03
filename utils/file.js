@@ -70,9 +70,9 @@ const compare = async (oldFilePath, newFilePath = oldFilePath) => {
     let addList = []
     let deleteList = []
 
-    //  old （learn）无 ， new 有 (aws) ： add==需要更新的
+
     addList = newList.filter(line => !oldList.includes(line));
-    // new (aws) 无 old 有（learn） ： 
+ 
     deleteList = oldList.filter(line => !newList.includes(line));
 
     console.log(COLOR.cyan, "add: ", addList.length, addList);
