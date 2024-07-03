@@ -51,6 +51,10 @@ const trimStrList = async (strList) => {
         } else {
             str = "https://github.com/Azure-Samples/" + str
         }
+
+        if (str.endsWith("/")) {
+            str = str.slice(0, -("/".length))
+        }
         newList.push(str)
     })
     return newList

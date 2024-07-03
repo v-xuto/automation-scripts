@@ -95,6 +95,12 @@ const trimStrList = async (strList) => {
         if (str.endsWith("/tree/main/")) {
             str = str.slice(0, -("/tree/main/".length))
         }
+
+        if (str.endsWith("/")) {
+            console.log(str);
+            str = str.slice(0, -("/".length))
+        }
+        
         newList.push(str)
     })
     return newList

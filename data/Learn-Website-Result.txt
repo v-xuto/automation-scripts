@@ -13,6 +13,5 @@ https://github.com/azure-samples/bindings-dapr-csharp-cron-postgres
 https://github.com/azure/gpt-rag
 https://github.com/azure-samples/azure-django-postgres-aca
 https://github.com/azure/reliable-web-app-pattern-dotnet
-https://github.com/azure-samples/serverless-chat-langchainjs/
 https://github.com/azure-samples/azd-starter-bicep
 https://github.com/azure-samples/azd-starter-terraform

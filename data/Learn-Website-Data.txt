@@ -35,8 +35,8 @@ https://github.com/azure/enterprise-azureai
 https://github.com/azure-samples/openai-aca-lb
 https://github.com/azure-samples/summarization-openai-csharp-prompty
 https://github.com/azure-samples/todo-java-mongo-aca
-https://github.com/azure-samples/azure-search-openai-demo/tree/main/samples/private-endpoint
 https://github.com/azure-samples/todo-nodejs-mongo-terraform
+https://github.com/azure-samples/azure-search-openai-demo/tree/main/samples/private-endpoint
 https://github.com/azure-samples/todo-python-mongo-swa-func
 https://github.com/azure-samples/todo-python-mongo-terraform
 https://github.com/azure-samples/todo-python-mongo
@@ -47,12 +47,12 @@ https://github.com/azure-samples/todo-csharp-cosmos-sql
 https://github.com/azure-samples/todo-java-mongo
 https://github.com/azure-samples/todo-csharp-sql-swa-func
 https://github.com/azure-samples/todo-python-mongo-aca
-https://github.com/azure-samples/contoso-chat-csharp-prompty
 https://github.com/azure-samples/todo-csharp-sql
 https://github.com/azure-samples/todo-nodejs-mongo
+https://github.com/azure-samples/contoso-chat-csharp-prompty
 https://github.com/azure-samples/todo-nodejs-mongo-swa-func
-https://github.com/azure-samples/azure-openai-keyless
 https://github.com/azure-samples/openai-chat-app-entra-auth-local
+https://github.com/azure-samples/azure-openai-keyless
 https://github.com/azure-samples/openai-chat-app-entra-auth-builtin
 https://github.com/azure-samples/assistant-data-openai-python-promptflow
 https://github.com/azure-samples/summarization-openai-python-promptflow

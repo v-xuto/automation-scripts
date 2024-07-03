@@ -1,6 +1,6 @@
 ## Overview
-First, the script is used for automatic check [Awesome Azure Developer CLI](https://azure.github.io/awesome-azd/?tags=msft) changes of templates, and output the new and deleted templates to a json file in the data folder.   
-Second, the script is used to automate the comparison of templates in [Awesome Azure Developer CLI](https://azure.github.io/awesome-azd/?tags=msft) and [Browse code samples | Microsoft Learn](https://learn.microsoft.com/en-us/samples/browse/?expanded=azure&languages=azdeveloper), and output the templates that need to be updated in [Browse code samples | Microsoft Learn](https://learn.microsoft.com/en-us/samples/browse/?expanded=azure&languages=azdeveloper) to the txt file in the data folder.
+First, the script is used for automatic check [Awesome Azure Developer CLI](https://azure.github.io/awesome-azd/?tags=msft) changes of templates, and output the new and deleted templates to the `Awesome-CLI-Result.json` file in the data folder.   
+Second, the script is used to automate the comparison of templates in [Awesome Azure Developer CLI](https://azure.github.io/awesome-azd/?tags=msft) and [Browse code samples | Microsoft Learn](https://learn.microsoft.com/en-us/samples/browse/?expanded=azure&languages=azdeveloper), and output the templates that are not published to [Browse code samples | Microsoft Learn](https://learn.microsoft.com/en-us/samples/browse/?expanded=azure&languages=azdeveloper) to the `Learn-Website-Result.txt` file in the data folder.
 
 ## Key directory structure
 
@@ -9,10 +9,10 @@ Second, the script is used to automate the comparison of templates in [Awesome A
     - Awesome-CLI-Old.txt : Used to save the template from the last execution of [Awesome Azure Developer CLI](https://azure.github.io/awesome-azd/?tags=msft). The template can be written by executing the code or entered manually.
     - Awesome-CLI-Result.json : Saved the newly added and deleted templates from [Awesome Azure Developer CLI](https://azure.github.io/awesome-azd/?tags=msft). Writing them by executing the code.
     - Learn-Website-Data.txt ： Saved the latest templates from [Browse code samples | Microsoft Learn](https://learn.microsoft.com/en-us/samples/browse/?expanded=azure&languages=azdeveloper). Writing them by executing the code.
-    - Learn-Website-Result.txt： Saves the templates that needs to be updated from [Browse code samples | Microsoft Learn](https://learn.microsoft.com/en-us/samples/browse/?expanded=azure&languages=azdeveloper). Writing them by executing the code.
+    - Learn-Website-Result.txt： Saves the templates that are not published to [Browse code samples | Microsoft Learn](https://learn.microsoft.com/en-us/samples/browse/?expanded=azure&languages=azdeveloper). Writing them by executing the code.
 - src : Source code
     - Awesome-CLI.js : The script is used for automatic check [Awesome Azure Developer CLI](https://azure.github.io/awesome-azd/?tags=msft) changes of templates, and output the new and deleted templates to a json file in the data folder. 
-    - Learn-Website.js : the script is used to automate the comparison of templates in [Awesome Azure Developer CLI](https://azure.github.io/awesome-azd/?tags=msft) and [Browse code samples | Microsoft Learn](https://learn.microsoft.com/en-us/samples/browse/?expanded=azure&languages=azdeveloper), and output the templates that need to be updated in [Browse code samples | Microsoft Learn](https://learn.microsoft.com/en-us/samples/browse/?expanded=azure&languages=azdeveloper) to the txt file in the data folder.
+    - Learn-Website.js : the script is used to automate the comparison of templates in [Awesome Azure Developer CLI](https://azure.github.io/awesome-azd/?tags=msft) and [Browse code samples | Microsoft Learn](https://learn.microsoft.com/en-us/samples/browse/?expanded=azure&languages=azdeveloper), and output the templates that are not published to [Browse code samples | Microsoft Learn](https://learn.microsoft.com/en-us/samples/browse/?expanded=azure&languages=azdeveloper) to the txt file in the data folder.
 - .env : Save the relevant environment variables at the time of code execution
 
 
@@ -20,4 +20,4 @@ Second, the script is used to automate the comparison of templates in [Awesome A
 1. npm i
 2. npm run task-A
 3. npm run task-L
-3. View the result in the corresponding file under the data folder.
+4. View the result in the corresponding file under the data folder.
