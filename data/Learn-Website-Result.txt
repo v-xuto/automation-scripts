@@ -6,7 +6,6 @@ https://github.com/azure-samples/azd-ai-starter
 https://github.com/azure-samples/azd-aistudio-starter
 https://github.com/microsoft/aoai-logging-with-apim
 https://github.com/azure-samples/azd-deployment-environments
-https://github.com/azure-samples/azure-search-openai-demo
 https://github.com/azure-samples/contoso-chat
 https://github.com/azure-samples/agent-openai-python-prompty-langchain-pinecone
 https://github.com/azure-samples/bindings-dapr-csharp-cron-postgres

@@ -1,5 +1,6 @@
 const fs = require('fs');
-const { COLOR } = require('../utils/base')
+const { COLOR } = require('../utils/base');
+const { log } = require('console');
 
 
 // The file is written in TXT format
@@ -50,10 +51,28 @@ const refreshTxt = async (oldFilePath, newFilePath) => {
 
 
 // File compare
-const compare = async (oldFilePath, newFilePath = oldFilePath) => {
+const compare = async (oldFilePath, newFilePath) => {
 
-    let oldArr = await readTxt(oldFilePath)
-    let newArr = await readTxt(newFilePath)
+    if (!oldFilePath && !newFilePath) {
+        console.log(base.COLOR.red,"Error : Missing path");
+        return
+    }
+
+    let oldArr = []
+    let newArr = []
+
+    if (typeof oldFilePath == 'string') {
+        oldArr = await readTxt(oldFilePath)
+    }else{
+        oldArr = oldFilePath
+    }
+    if (typeof newFilePath == 'string') {
+        newArr = await readTxt(newFilePath)
+    }else{
+        newArr = newFilePath
+    }
+
+
     let oldList = []
     let newList = []
     oldArr.forEach(item => {

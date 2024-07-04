@@ -25,17 +25,19 @@ async function main(page) {
 
     let strList = await getRealUrl(page, firstList)
 
-    strList = await trimStrList(strList)
+    // strList = await trimStrList(strList)
 
     console.log("Second crawl data: ", strList.length);
 
 
     await file.writeTxt(Learn_Website_FilePath, strList,"Save the Learn_Website data")
 
+    Learn_Website_strList = await trimStrList(strList)
+
     await file.formatFile(Awesome_CLI_FilePath,"Filter the Awesome_CLI data")
 
 
-    let res = await file.compare(Learn_Website_FilePath,Awesome_CLI_FilePath)
+    let res = await file.compare(Learn_Website_strList,Awesome_CLI_FilePath)
     
 
     await file.writeTxt(resultFilePath, res.addList)
@@ -85,16 +87,32 @@ const getRealUrl = async (page, firstList) => {
 }
 
 
+// const trimStrList = async (strList) => {
+//     let newList = []
+//     strList.forEach(str => {
+//         str = str.trim()
+//         if (str.endsWith("docs")) {
+//             str = str.slice(0, -("docs".length))
+//         }
+//         if (str.endsWith("/tree/main/")) {
+//             str = str.slice(0, -("/tree/main/".length))
+//         }
+
+//         if (str.endsWith("/")) {
+//             console.log(str);
+//             str = str.slice(0, -("/".length))
+//         }
+        
+//         newList.push(str)
+//     })
+//     return newList
+// }
+
 const trimStrList = async (strList) => {
     let newList = []
     strList.forEach(str => {
         str = str.trim()
-        if (str.endsWith("docs")) {
-            str = str.slice(0, -("docs".length))
-        }
-        if (str.endsWith("/tree/main/")) {
-            str = str.slice(0, -("/tree/main/".length))
-        }
+        str = (str.split("/tree"))[0]
 
         if (str.endsWith("/")) {
             console.log(str);
