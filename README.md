@@ -17,7 +17,21 @@ Second, the script is used to automate the comparison of templates in [Awesome A
 
 
 ## Start
-1. npm i
-2. npm run task-A
-3. npm run task-L
-4. View the result in the corresponding file under the data folder.
+### Install the package
+```
+npm install
+npx playwright install
+```
+### Run code
+This instruction `npm run task-A` is used for automatic check Awesome Azure Developer CLI changes of templates, and output the new and deleted templates to the Awesome-CLI-Result.json file in the data folder.
+
+```
+npm run task-A
+```
+
+This instruction `npm run task-L` is used to automate the comparison of templates in Awesome Azure Developer CLI and Browse code samples | Microsoft Learn, and output the templates that are not published to Browse code samples | Microsoft Learn to the Learn-Website-Result.txt file in the data folder.
+```
+npm run task-L
+```
+### Result 
+View the result in the corresponding file under the data folder.

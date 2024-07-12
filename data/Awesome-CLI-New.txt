@@ -17,6 +17,7 @@ https://github.com/Azure-Samples/azure-sql-db-session-recommender-v2
 https://github.com/Azure-Samples/azure-sql-db-session-recommender
 https://github.com/Azure-Samples/openai-aca-lb
 https://github.com/Azure-Samples/azd-deployment-environments
+https://github.com/azurecosmosdb/cosmosdb-nosql-copilot
 https://github.com/Azure-Samples/chat-with-your-data-solution-accelerator
 https://github.com/Azure-Samples/azure-search-openai-demo-csharp
 https://github.com/Azure-Samples/azure-search-openai-demo
