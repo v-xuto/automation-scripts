@@ -19,7 +19,7 @@ Second, the script is used to automate the comparison of templates in [Awesome A
 ## Start
 ### Install the package
 ```
-npm install
+https://github.com/v-weiyding/automation-scripts.git
 npx playwright install
 ```
 ### Run code
