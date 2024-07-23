@@ -20,6 +20,7 @@ Second, the script is used to automate the comparison of templates in [Awesome A
 ### Install the package
 ```
 npm install
+
 npx playwright install
 ```
 ### Run code
