@@ -1,7 +1,17 @@
 https://github.com/azure-samples/chat-with-your-data-solution-accelerator/tree/main/
+https://github.com/azure-samples/rag-postgres-openai-python/tree/main/docs
+https://github.com/azure-samples/apicenter-reference/tree/main/docs
+https://github.com/azure-samples/azure-functions-flex-consumption-samples/tree/main/E2E/BLOB-PDF
+https://github.com/azure-samples/azure-functions-flex-consumption-samples/tree/main/E2E/HTTP-VNET-EH
+https://github.com/azure-samples/azure-functions-flex-consumption-samples/tree/main/E2E/SB-VNET
+https://github.com/azure-samples/azure-functions-flex-consumption-samples/tree/main/starters/http/dotnet
+https://github.com/azure/enterprise-azureai/tree/main/
+https://github.com/azure-samples/app-service-javascript-sap-cloud-sdk-quickstart/tree/main/
+https://github.com/azure-samples/functions-javascript-sap-cloud-sdk-quickstart/tree/main/
 https://github.com/azure-samples/aks-store-demo/tree/main/
-https://github.com/azure-samples/azure-django-postgres-aca/tree/main/
 https://github.com/azure-samples/azure-sql-db-session-recommender-v2/tree/main/
+https://github.com/azure-samples/gpt-video-analysis-in-a-box/tree/main/
+https://github.com/azure-samples/azure-django-postgres-aca/tree/main/
 https://github.com/azure-samples/azure-postgres-pgvector-python/tree/main/
 https://github.com/azure-samples/azure-search-openai-demo-java/tree/main/
 https://github.com/azure-samples/todo-csharp-cosmos-sql/tree/main/
@@ -9,7 +19,6 @@ https://github.com/azure-samples/todo-csharp-sql-swa-func/tree/main/
 https://github.com/azure-samples/todo-csharp-sql/tree/main/
 https://github.com/azure-samples/openai-chat-app-entra-auth-local/tree/main/docs
 https://github.com/azure-samples/azd-ai-starter/tree/main/
-https://github.com/azure/enterprise-azureai/tree/main/
 https://github.com/azure-samples/openai-chat-app-entra-auth-builtin/tree/main/docs
 https://github.com/azure-samples/todo-java-mongo-aca/tree/main/
 https://github.com/azure-samples/todo-nodejs-mongo-terraform/tree/main/
@@ -26,12 +35,9 @@ https://github.com/azure-samples/azure-search-openai-demo-csharp/tree/main/
 https://github.com/azure-samples/agent-openai-python-prompty/tree/main/
 https://github.com/azure-samples/asa-samples-web-application/tree/main/
 https://github.com/azure-samples/cosmos-db-nosql-role-based-access-control/tree/main/
-https://github.com/azure-samples/gpt-video-analysis-in-a-box/tree/main/
 https://github.com/azure-samples/openai-apim-lb/tree/main/
-https://github.com/azure-samples/app-service-javascript-sap-cloud-sdk-quickstart/tree/main/
 https://github.com/azure-samples/openai-chat-app-quickstart/tree/main/docs
 https://github.com/azure-samples/chatgpt-quickstart/tree/main/docs
-https://github.com/azure-samples/functions-javascript-sap-cloud-sdk-quickstart/tree/main/
 https://github.com/azure-samples/azd-aistudio-starter/tree/main/
 https://github.com/azure-samples/azure-openai-assistant-javascript/tree/main/docs
 https://github.com/azure-samples/fastapi-on-azure-functions/tree/main/
@@ -63,7 +69,6 @@ https://github.com/azure-samples/summarization-openai-python-promptflow/tree/mai
 https://github.com/azure-samples/function-eventhub-vnet/tree/main/
 https://github.com/azure-samples/agent-python-openai-prompty-langchain/tree/main/docs
 https://github.com/azure-samples/openai-langchainjs/tree/main/docs
-https://github.com/azure-samples/rag-postgres-openai-python/tree/main/docs
 https://github.com/azure-samples/function-csharp-ai-textsummarize/tree/main/
 https://github.com/azure-samples/function-python-ai-textsummarize/tree/main/
 https://github.com/azure-samples/function-javascript-ai-openai-chatgpt/tree/main/
