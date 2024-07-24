@@ -1,7 +1,6 @@
 https://github.com/dotnet/ai-samples
 https://github.com/azure/apicenter-analyzer
 https://github.com/azure/apicenter-portal-starter
-https://github.com/azure-samples/apicenter-reference
 https://github.com/microsoft/aoai-logging-with-apim
 https://github.com/azure-samples/azd-deployment-environments
 https://github.com/azurecosmosdb/cosmosdb-nosql-copilot
