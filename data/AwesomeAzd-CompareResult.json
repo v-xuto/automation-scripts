@@ -1,0 +1,14 @@
+{
+    "addList": [
+        "https://github.com/azurecosmosdb/cosmosdb-nosql-copilot",
+        "https://github.com/azure-samples/azure-django-postgres-aca",
+        "https://github.com/azure-samples/llama-index-javascript",
+        "https://github.com/azure-samples/llama-index-python",
+        "https://github.com/azure-samples/serverless-chat-langchainjs"
+    ],
+    "deleteList": [
+        "https://github.com/azure-samples/chat-csharp-cosmos-db-nosql-openai",
+        "https://github.com/azure-samples/serverless-chat-langchainjs/",
+        "https://github.com/azure-samples/azure-django-postgres-flexible-aca"
+    ]
+}
