@@ -67,6 +67,8 @@ https://github.com/azure/reliable-web-app-pattern-dotnet
 https://github.com/Azure-Samples/app-service-javascript-sap-cap-quickstart
 https://github.com/Azure-Samples/app-service-javascript-sap-cloud-sdk-quickstart
 https://github.com/Azure-Samples/functions-javascript-sap-cloud-sdk-quickstart
+https://github.com/Azure-Samples/llama-index-javascript
+https://github.com/Azure-Samples/llama-index-python
 https://github.com/Azure-Samples/serverless-chat-langchainjs
 https://github.com/azure/enterprise-azureai
 https://github.com/Azure-Samples/chatgpt-quickstart
