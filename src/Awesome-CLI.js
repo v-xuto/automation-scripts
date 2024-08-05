@@ -14,9 +14,9 @@ const url = process.env.Awesome_CLI_URL
 
 async function main(page) {
 
-    if (fs.existsSync(newFilePath)) {
-        await file.refreshTxt(oldFilePath, newFilePath)
-    }
+    // if (fs.existsSync(newFilePath)) {
+    //     await file.refreshTxt(oldFilePath, newFilePath)
+    // }
 
     await page.goto(url)
 
