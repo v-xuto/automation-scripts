@@ -1,11 +1,13 @@
 https://github.com/azure-samples/chat-with-your-data-solution-accelerator/tree/main/
 https://github.com/azure-samples/azure-search-openai-demo-java/tree/main/
+https://github.com/azure-samples/aks-store-demo/tree/main/
+https://github.com/azure-samples/openai-chat-app-quickstart/tree/main/docs
+https://github.com/azure-samples/chatgpt-quickstart/tree/main/docs
+https://github.com/azurecosmosdb/cosmosdb-nosql-copilot/tree/main/
 https://github.com/dotnet/ai-samples/tree/main/
 https://github.com/microsoft/aoai-logging-with-apim/tree/main/
-https://github.com/azurecosmosdb/cosmosdb-nosql-copilot/tree/main/
 https://github.com/azure-samples/azure-functions-flex-consumption-samples/tree/main/E2E/BLOB-PDF
 https://github.com/azure-samples/serverless-chat-langchainjs/tree/main/docs
-https://github.com/azure-samples/aks-store-demo/tree/main/
 https://github.com/azure-samples/azure-functions-flex-consumption-samples/tree/main/starters/http/dotnet
 https://github.com/azure-samples/spring-petclinic-java-mysql/tree/main/
 https://github.com/azure-samples/rag-postgres-openai-python/tree/main/docs
@@ -41,8 +43,6 @@ https://github.com/azure-samples/agent-openai-python-prompty/tree/main/
 https://github.com/azure-samples/asa-samples-web-application/tree/main/
 https://github.com/azure-samples/cosmos-db-nosql-role-based-access-control/tree/main/
 https://github.com/azure-samples/openai-apim-lb/tree/main/
-https://github.com/azure-samples/openai-chat-app-quickstart/tree/main/docs
-https://github.com/azure-samples/chatgpt-quickstart/tree/main/docs
 https://github.com/azure-samples/azd-aistudio-starter/tree/main/
 https://github.com/azure-samples/azure-openai-assistant-javascript/tree/main/docs
 https://github.com/azure-samples/fastapi-on-azure-functions/tree/main/
