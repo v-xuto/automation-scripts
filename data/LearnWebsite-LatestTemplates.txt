@@ -1,5 +1,13 @@
+https://github.com/azure-samples/functions-quickstart-dotnet-azd/tree/main/
+https://github.com/azure-samples/azure-functions-java-flex-consumption-azd/tree/main/
+https://github.com/azure-samples/app-templates-java-openai-springapps/tree/main/
+https://github.com/azure-samples/agent-openai-python-prompty-langchain-pinecone/tree/main/
+https://github.com/azure-samples/bindings-dapr-csharp-cron-postgres/tree/main/
 https://github.com/azure-samples/chat-with-your-data-solution-accelerator/tree/main/
 https://github.com/azure-samples/azure-search-openai-demo-java/tree/main/
+https://github.com/azure-samples/serverless-chat-langchainjs/tree/main/docs
+https://github.com/azure-samples/fastapi-on-azure-functions/tree/main/
+https://github.com/azure-samples/azure-sql-db-session-recommender-v2/tree/main/
 https://github.com/azure-samples/aks-store-demo/tree/main/
 https://github.com/azure-samples/openai-chat-app-quickstart/tree/main/docs
 https://github.com/azure-samples/chatgpt-quickstart/tree/main/docs
@@ -7,8 +15,6 @@ https://github.com/azurecosmosdb/cosmosdb-nosql-copilot/tree/main/
 https://github.com/dotnet/ai-samples/tree/main/
 https://github.com/microsoft/aoai-logging-with-apim/tree/main/
 https://github.com/azure-samples/azure-functions-flex-consumption-samples/tree/main/E2E/BLOB-PDF
-https://github.com/azure-samples/serverless-chat-langchainjs/tree/main/docs
-https://github.com/azure-samples/azure-functions-flex-consumption-samples/tree/main/starters/http/dotnet
 https://github.com/azure-samples/spring-petclinic-java-mysql/tree/main/
 https://github.com/azure-samples/rag-postgres-openai-python/tree/main/docs
 https://github.com/azure-samples/azd-ai-starter/tree/main/
@@ -18,7 +24,6 @@ https://github.com/azure-samples/azure-functions-flex-consumption-samples/tree/m
 https://github.com/azure/enterprise-azureai/tree/main/
 https://github.com/azure-samples/app-service-javascript-sap-cloud-sdk-quickstart/tree/main/
 https://github.com/azure-samples/functions-javascript-sap-cloud-sdk-quickstart/tree/main/
-https://github.com/azure-samples/azure-sql-db-session-recommender-v2/tree/main/
 https://github.com/azure-samples/gpt-video-analysis-in-a-box/tree/main/
 https://github.com/azure-samples/azure-django-postgres-aca/tree/main/
 https://github.com/azure-samples/azure-postgres-pgvector-python/tree/main/
@@ -45,7 +50,6 @@ https://github.com/azure-samples/cosmos-db-nosql-role-based-access-control/tree/
 https://github.com/azure-samples/openai-apim-lb/tree/main/
 https://github.com/azure-samples/azd-aistudio-starter/tree/main/
 https://github.com/azure-samples/azure-openai-assistant-javascript/tree/main/docs
-https://github.com/azure-samples/fastapi-on-azure-functions/tree/main/
 https://github.com/azure-samples/openai-chat-backend-fastapi/tree/main/docs
 https://github.com/azure-samples/azure-search-openai-demo/tree/main/samples/document-security
 https://github.com/azure-samples/azure-appconfig-aks/tree/main/
@@ -88,4 +92,3 @@ https://github.com/azure-samples/azure-sql-db-session-recommender/tree/main/
 https://github.com/azure-samples/pubsub-dapr-aks-java/tree/main/
 https://github.com/azure-samples/apptemplate-wordpress-on-aca/tree/main/
 https://github.com/azure-samples/orleans-url-shortener/tree/main/
-https://github.com/azure-samples/app-templates-java-openai-springapps/tree/main/
