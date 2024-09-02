@@ -49,12 +49,14 @@ https://github.com/Azure-Samples/svc-invoke-dapr-csharp
 https://github.com/Azure-Samples/svc-invoke-dapr-nodejs
 https://github.com/Azure-Samples/svc-invoke-dapr-python
 https://github.com/azure/gpt-rag
+https://github.com/Azure-Samples/nlp-sql-in-a-box
 https://github.com/Azure-Samples/azure-postgres-pgvector-python
 https://github.com/Azure-Samples/summarization-openai-python-promptflow
 https://github.com/Azure-Samples/msdocs-django-postgresql-sample-app
 https://github.com/Azure-Samples/azure-django-postgres-aca
 https://github.com/Azure-Samples/msdocs-flask-postgresql-sample-app
 https://github.com/Azure-Samples/rag-postgres-openai-python
+https://github.com/microsoft/kernel-memory
 https://github.com/Azure-Samples/react-component-toolkit-openai-demo
 https://github.com/Azure-Samples/todo-csharp-cosmos-sql
 https://github.com/Azure-Samples/todo-csharp-sql

@@ -1,8 +1,8 @@
 https://github.com/azure/apicenter-analyzer
-https://github.com/azure/apicenter-portal-starter
 https://github.com/azure-samples/azd-deployment-environments
 https://github.com/azure-samples/contoso-chat
 https://github.com/azure/gpt-rag
+https://github.com/microsoft/kernel-memory
 https://github.com/azure/reliable-web-app-pattern-dotnet
 https://github.com/azure-samples/llama-index-javascript
 https://github.com/azure-samples/llama-index-python
