@@ -13,11 +13,13 @@ https://github.com/Azure-Samples/function-csharp-ai-textsummarize
 https://github.com/Azure-Samples/function-python-ai-textsummarize
 https://github.com/Azure-Samples/aks-store-demo
 https://github.com/microsoft/aoai-logging-with-apim
+https://github.com/Azure-Samples/azure-openai-chat-frontend
 https://github.com/Azure-Samples/azure-sql-db-session-recommender-v2
 https://github.com/Azure-Samples/azure-sql-db-session-recommender
 https://github.com/Azure-Samples/openai-aca-lb
 https://github.com/Azure-Samples/azd-deployment-environments
 https://github.com/azurecosmosdb/cosmosdb-nosql-copilot
+https://github.com/Azure-Samples/openai-chat-vision-quickstart
 https://github.com/Azure-Samples/chat-with-your-data-solution-accelerator
 https://github.com/Azure-Samples/azure-search-openai-demo-csharp
 https://github.com/Azure-Samples/azure-search-openai-demo
@@ -69,6 +71,7 @@ https://github.com/azure/reliable-web-app-pattern-dotnet
 https://github.com/Azure-Samples/app-service-javascript-sap-cap-quickstart
 https://github.com/Azure-Samples/app-service-javascript-sap-cloud-sdk-quickstart
 https://github.com/Azure-Samples/functions-javascript-sap-cloud-sdk-quickstart
+https://github.com/Azure-Samples/azure-openai-assistant-javascript
 https://github.com/Azure-Samples/llama-index-javascript
 https://github.com/Azure-Samples/llama-index-python
 https://github.com/Azure-Samples/serverless-chat-langchainjs

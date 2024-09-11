@@ -1,10 +1,10 @@
 https://github.com/azure/apicenter-analyzer
+https://github.com/azure-samples/azure-openai-chat-frontend
 https://github.com/azure-samples/azd-deployment-environments
-https://github.com/azure-samples/contoso-chat
+https://github.com/azure-samples/openai-chat-vision-quickstart
 https://github.com/azure/gpt-rag
 https://github.com/microsoft/kernel-memory
 https://github.com/azure/reliable-web-app-pattern-dotnet
-https://github.com/azure-samples/llama-index-javascript
 https://github.com/azure-samples/llama-index-python
 https://github.com/azure-samples/azd-starter-bicep
 https://github.com/azure-samples/azd-starter-terraform
