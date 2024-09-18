@@ -83,3 +83,8 @@ https://github.com/azure-samples/azure-django-postgres-aca
 https://github.com/azure-samples/llama-index-javascript
 https://github.com/azure-samples/llama-index-python
 https://github.com/azure-samples/serverless-chat-langchainjs
+https://github.com/Azure-Samples/azure-openai-chat-frontend
+https://github.com/Azure-Samples/openai-chat-vision-quickstart
+https://github.com/Azure-Samples/nlp-sql-in-a-box
+https://github.com/microsoft/kernel-memory
+https://github.com/Azure-Samples/azure-openai-assistant-javascript
