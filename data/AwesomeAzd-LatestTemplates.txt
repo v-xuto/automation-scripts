@@ -36,6 +36,7 @@ https://github.com/Azure-Samples/fastapi-on-azure-functions
 https://github.com/Azure-Samples/agent-python-openai-prompty-langchain
 https://github.com/Azure-Samples/agent-openai-python-prompty-langchain-pinecone
 https://github.com/Azure-Samples/gpt-video-analysis-in-a-box
+https://github.com/Azure-Samples/hello-azd
 https://github.com/Azure-Samples/azure-search-openai-demo-java
 https://github.com/Azure-Samples/app-templates-java-openai-springapps
 https://github.com/Azure-Samples/todo-nodejs-mongo-aks
@@ -57,6 +58,7 @@ https://github.com/Azure-Samples/summarization-openai-python-promptflow
 https://github.com/Azure-Samples/msdocs-django-postgresql-sample-app
 https://github.com/Azure-Samples/azure-django-postgres-aca
 https://github.com/Azure-Samples/msdocs-flask-postgresql-sample-app
+https://github.com/Azure-Samples/quote-of-the-day-dotnet
 https://github.com/Azure-Samples/rag-postgres-openai-python
 https://github.com/microsoft/kernel-memory
 https://github.com/Azure-Samples/react-component-toolkit-openai-demo
