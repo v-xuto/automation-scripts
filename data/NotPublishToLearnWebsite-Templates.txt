@@ -1,4 +1,6 @@
 https://github.com/azure/apicenter-analyzer
+https://github.com/azure-samples/function-javascript-ai-openai-chatgpt
+https://github.com/azure-samples/function-python-ai-openai-chatgpt
 https://github.com/azure-samples/azure-openai-chat-frontend
 https://github.com/azure-samples/azd-deployment-environments
 https://github.com/azure-samples/openai-chat-vision-quickstart
@@ -8,5 +10,7 @@ https://github.com/azure-samples/quote-of-the-day-dotnet
 https://github.com/microsoft/kernel-memory
 https://github.com/azure/reliable-web-app-pattern-dotnet
 https://github.com/azure-samples/llama-index-python
+https://github.com/azure-samples/chatgpt-quickstart
+https://github.com/azure-samples/openai-chat-app-quickstart
 https://github.com/azure-samples/azd-starter-bicep
 https://github.com/azure-samples/azd-starter-terraform

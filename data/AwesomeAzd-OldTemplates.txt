@@ -88,3 +88,5 @@ https://github.com/Azure-Samples/openai-chat-vision-quickstart
 https://github.com/Azure-Samples/nlp-sql-in-a-box
 https://github.com/microsoft/kernel-memory
 https://github.com/Azure-Samples/azure-openai-assistant-javascript
+https://github.com/Azure-Samples/hello-azd
+https://github.com/Azure-Samples/quote-of-the-day-dotnet
