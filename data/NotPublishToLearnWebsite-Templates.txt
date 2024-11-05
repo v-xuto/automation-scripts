@@ -4,6 +4,7 @@ https://github.com/azure-samples/function-python-ai-openai-chatgpt
 https://github.com/azure-samples/azure-openai-chat-frontend
 https://github.com/azure-samples/azd-deployment-environments
 https://github.com/azure-samples/openai-chat-vision-quickstart
+https://github.com/azure-samples/doc-intelligence-in-a-box
 https://github.com/azure-samples/hello-azd
 https://github.com/azure/gpt-rag
 https://github.com/azure-samples/quote-of-the-day-dotnet
