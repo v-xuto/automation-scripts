@@ -52,6 +52,7 @@ https://github.com/Azure-Samples/fastapi-on-azure-functions
 https://github.com/Azure-Samples/gpt-video-analysis-in-a-box
 https://github.com/Azure-Samples/hello-azd
 https://github.com/Azure-Samples/azure-search-openai-demo-java
+https://github.com/Azure-Samples/java-on-aca-quarkus
 https://github.com/Azure-Samples/app-templates-java-openai-springapps
 https://github.com/Azure-Samples/todo-nodejs-mongo-aks
 https://github.com/Azure-Samples/langfuse-on-azure
@@ -97,6 +98,7 @@ https://github.com/Azure-Samples/chatgpt-quickstart
 https://github.com/Azure-Samples/openai-chat-app-quickstart
 https://github.com/Azure-Samples/spring-chatgpt-sample
 https://github.com/Azure-Samples/spring-petclinic-java-mysql
+https://github.com/Azure-Samples/java-microservices-aca-lab
 https://github.com/Azure-Samples/azd-starter-bicep
 https://github.com/Azure-Samples/azd-starter-terraform
 https://github.com/Azure-Samples/todo-csharp-sql-swa-func
