@@ -3,7 +3,6 @@ https://github.com/azure-samples/function-javascript-ai-openai-chatgpt
 https://github.com/azure-samples/function-python-ai-openai-chatgpt
 https://github.com/azure-samples/azure-openai-chat-frontend
 https://github.com/azure-samples/azd-deployment-environments
-https://github.com/azure-samples/doc-intelligence-in-a-box
 https://github.com/azure-samples/hello-azd
 https://github.com/azure/gpt-rag
 https://github.com/azure-samples/quote-of-the-day-dotnet
@@ -13,5 +12,6 @@ https://github.com/azure-samples/llama-index-python
 https://github.com/azure-samples/chatgpt-quickstart
 https://github.com/azure-samples/openai-chat-app-quickstart
 https://github.com/azure-samples/java-microservices-aca-lab
+https://github.com/azure-samples/spring-petclinic-ai
 https://github.com/azure-samples/azd-starter-bicep
 https://github.com/azure-samples/azd-starter-terraform
