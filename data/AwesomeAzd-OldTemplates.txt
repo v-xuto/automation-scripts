@@ -64,8 +64,6 @@ https://github.com/Azure-Samples/chat-with-your-data-solution-accelerator
 https://github.com/Azure-Samples/contoso-chat
 https://github.com/Azure-Samples/agent-openai-python-prompty
 https://github.com/Azure-Samples/azure-appconfig-aks
-https://github.com/Azure-Samples/agent-python-openai-prompty-langchain
-https://github.com/Azure-Samples/agent-openai-python-prompty-langchain-pinecone
 https://github.com/Azure-Samples/langfuse-on-azure
 https://github.com/Azure-Samples/azure-postgres-pgvector-python
 https://github.com/Azure-Samples/summarization-openai-python-promptflow
@@ -107,3 +105,5 @@ https://github.com/azure-samples/azure-openai-keyless-js
 https://github.com/azure-samples/openai-secure-ui-js
 https://github.com/azure-samples/doc-intelligence-in-a-box
 https://github.com/azure-samples/durable-functions-order-processing
+https://github.com/azure-samples/java-on-aca-quarkus
+https://github.com/azure-samples/java-microservices-aca-lab

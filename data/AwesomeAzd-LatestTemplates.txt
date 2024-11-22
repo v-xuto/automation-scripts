@@ -99,6 +99,7 @@ https://github.com/Azure-Samples/openai-chat-app-quickstart
 https://github.com/Azure-Samples/spring-chatgpt-sample
 https://github.com/Azure-Samples/spring-petclinic-java-mysql
 https://github.com/Azure-Samples/java-microservices-aca-lab
+https://github.com/Azure-Samples/spring-petclinic-ai
 https://github.com/Azure-Samples/azd-starter-bicep
 https://github.com/Azure-Samples/azd-starter-terraform
 https://github.com/Azure-Samples/todo-csharp-sql-swa-func
