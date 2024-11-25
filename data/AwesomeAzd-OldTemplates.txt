@@ -107,3 +107,4 @@ https://github.com/azure-samples/doc-intelligence-in-a-box
 https://github.com/azure-samples/durable-functions-order-processing
 https://github.com/azure-samples/java-on-aca-quarkus
 https://github.com/azure-samples/java-microservices-aca-lab
+https://github.com/azure-samples/spring-petclinic-ai
