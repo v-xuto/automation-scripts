@@ -94,6 +94,7 @@ https://github.com/Azure-Samples/llama-index-javascript
 https://github.com/Azure-Samples/llama-index-python
 https://github.com/Azure-Samples/serverless-chat-langchainjs
 https://github.com/azure/enterprise-azureai
+https://github.com/Azure-Samples/genai-gateway-apim
 https://github.com/Azure-Samples/chatgpt-quickstart
 https://github.com/Azure-Samples/openai-chat-app-quickstart
 https://github.com/Azure-Samples/spring-chatgpt-sample
