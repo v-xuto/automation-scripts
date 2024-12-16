@@ -1,16 +1,18 @@
+https://github.com/azure-samples/apptemplate-wordpress-on-aca/tree/main/
+https://github.com/azure-samples/azure-search-openai-demo/tree/main/
+https://github.com/azure-samples/agent-openai-python-prompty/tree/main/
+https://github.com/azure-samples/contoso-creative-writer/tree/main/
+https://github.com/azure-samples/chat-with-your-data-solution-accelerator/tree/main/
+https://github.com/azure-samples/langfuse-on-azure/tree/main/
 https://github.com/azure-samples/llama-index-azure-code-interpreter/tree/main/
 https://github.com/azure-samples/llama-index-python/tree/main/
 https://github.com/azure-samples/llama-index-javascript/tree/main/
-https://github.com/azure-samples/agent-openai-python-prompty/tree/main/
 https://github.com/azure-samples/llama-index-vector-search-javascript/tree/main/
-https://github.com/azure-samples/contoso-creative-writer/tree/main/
 https://github.com/azure-samples/azure-openai-entity-extraction/tree/main/
 https://github.com/dotnet/ai-samples/tree/main/
-https://github.com/azure-samples/chat-with-your-data-solution-accelerator/tree/main/
 https://github.com/azure-samples/serverless-chat-langchainjs/tree/main/docs
 https://github.com/azure-samples/azure-openai-keyless-js/tree/main/docs
 https://github.com/azure-samples/openai-secure-ui-js/tree/main/docs
-https://github.com/azure-samples/azure-search-openai-demo/tree/main/
 https://github.com/azure-samples/rag-postgres-openai-python/tree/main/docs
 https://github.com/azurecosmosdb/cosmosdb-nosql-copilot/tree/main/
 https://github.com/azure-samples/aks-store-demo/tree/main/
@@ -51,8 +53,8 @@ https://github.com/azure-samples/app-service-javascript-sap-cloud-sdk-quickstart
 https://github.com/azure-samples/azure-openai-keyless-go/tree/main/
 https://github.com/azure-samples/functions-e2e-http-to-eventhubs/tree/main/
 https://github.com/azure-samples/functions-e2e-sb-vnet/tree/main/
-https://github.com/azure-samples/azure-search-openai-demo-java/tree/main/
 https://github.com/azure-samples/azure-openai-keyless-java/tree/main/
+https://github.com/azure-samples/azure-search-openai-demo-java/tree/main/
 https://github.com/azure-samples/function-python-ai-langchain/tree/main/
 https://github.com/azure-samples/azd-ai-starter/tree/main/
 https://github.com/azure-samples/function-csharp-ai-textsummarize/tree/main/
@@ -99,7 +101,6 @@ https://github.com/azure-samples/msdocs-django-postgresql-sample-app/tree/main/
 https://github.com/azure-samples/azure-search-openai-javascript/tree/main/docs
 https://github.com/azure-samples/msdocs-flask-postgresql-sample-app/tree/main/
 https://github.com/azure-samples/simple-flask-server-appservice/tree/main/
-https://github.com/azure-samples/langfuse-on-azure/tree/main/
 https://github.com/azure-samples/openai-aca-lb/tree/main/docs
 https://github.com/azure-samples/summarization-openai-csharp-prompty/tree/main/docs
 https://github.com/azure-samples/contoso-chat-csharp-prompty/tree/main/docs
@@ -114,5 +115,4 @@ https://github.com/azure-samples/asa-samples-event-driven-application/tree/main/
 https://github.com/azure-samples/azure-postgresql-labs/tree/main/
 https://github.com/azure-samples/azure-sql-db-session-recommender/tree/main/
 https://github.com/azure-samples/pubsub-dapr-aks-java/tree/main/
-https://github.com/azure-samples/apptemplate-wordpress-on-aca/tree/main/
 https://github.com/azure-samples/orleans-url-shortener/tree/main/

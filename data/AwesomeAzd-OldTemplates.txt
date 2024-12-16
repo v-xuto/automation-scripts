@@ -108,3 +108,4 @@ https://github.com/azure-samples/durable-functions-order-processing
 https://github.com/azure-samples/java-on-aca-quarkus
 https://github.com/azure-samples/java-microservices-aca-lab
 https://github.com/azure-samples/spring-petclinic-ai
+https://github.com/azure-samples/genai-gateway-apim
