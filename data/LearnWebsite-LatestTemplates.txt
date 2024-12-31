@@ -1,6 +1,9 @@
-https://github.com/azure-samples/agent-openai-python-prompty/tree/main/
+https://github.com/azure-samples/app-service-javascript-sap-cap-quickstart/tree/main/
+https://github.com/azure-samples/app-service-javascript-sap-cloud-sdk-quickstart/tree/main/
 https://github.com/azure-samples/chat-with-your-data-solution-accelerator/tree/main/
+https://github.com/azure-samples/agent-openai-python-prompty/tree/main/
 https://github.com/azure-samples/contoso-creative-writer/tree/main/
+https://github.com/azure-samples/openai-chat-vision-quickstart/tree/main/
 https://github.com/azure-samples/serverless-chat-langchainjs/tree/main/docs
 https://github.com/dotnet/ai-samples/tree/main/
 https://github.com/azure-samples/openai-chat-app-entra-auth-builtin/tree/main/docs
@@ -23,11 +26,10 @@ https://github.com/azure-samples/cosmos-db-nosql-java-quickstart/tree/main/
 https://github.com/azure-samples/cosmos-db-table-nodejs-quickstart/tree/main/
 https://github.com/azure-samples/cosmos-db-nosql-dotnet-quickstart/tree/main/
 https://github.com/azure-samples/cosmos-db-nosql-python-quickstart/tree/main/
-https://github.com/azure-samples/cosmos-db-nosql-nodejs-quickstart/tree/main/
 https://github.com/azure-samples/cosmos-db-table-java-quickstart/tree/main/
+https://github.com/azure-samples/cosmos-db-nosql-nodejs-quickstart/tree/main/
 https://github.com/azure-samples/contoso-chat/tree/main/
 https://github.com/azure-samples/agent-openai-java-banking-assistant/tree/main/
-https://github.com/azure-samples/openai-chat-vision-quickstart/tree/main/
 https://github.com/azure-samples/cosmos-db-design-patterns/tree/main/
 https://github.com/azure-samples/svc-invoke-dapr-nodejs/tree/main/
 https://github.com/azure-samples/functions-quickstart-python-http-azd/tree/main/
@@ -50,12 +52,11 @@ https://github.com/azure-samples/pubsub-dapr-nodejs-servicebus/tree/main/
 https://github.com/azure-samples/azure-functions-openai-aisearch-dotnet/tree/main/
 https://github.com/azure-samples/azure-openai-keyless-python/tree/main/
 https://github.com/azure-samples/java-on-aca-quarkus/tree/main/
-https://github.com/azure-samples/app-service-javascript-sap-cloud-sdk-quickstart/tree/main/
 https://github.com/azure-samples/azure-openai-keyless-go/tree/main/
 https://github.com/azure-samples/functions-e2e-http-to-eventhubs/tree/main/
 https://github.com/azure-samples/functions-e2e-sb-vnet/tree/main/
-https://github.com/azure-samples/azure-search-openai-demo-java/tree/main/
 https://github.com/azure-samples/azure-openai-keyless-java/tree/main/
+https://github.com/azure-samples/azure-search-openai-demo-java/tree/main/
 https://github.com/azure-samples/function-python-ai-langchain/tree/main/
 https://github.com/azure-samples/azd-ai-starter/tree/main/
 https://github.com/azure-samples/function-csharp-ai-textsummarize/tree/main/
@@ -80,8 +81,8 @@ https://github.com/azure-samples/doc-intelligence-in-a-box/tree/main/
 https://github.com/azure-samples/azd-aistudio-starter/tree/main/
 https://github.com/azure-samples/function-eventhub-vnet/tree/main/
 https://github.com/azure/enterprise-azureai/tree/main/
-https://github.com/azure-samples/nlp-sql-in-a-box/tree/main/
 https://github.com/azure-samples/gpt-video-analysis-in-a-box/tree/main/
+https://github.com/azure-samples/nlp-sql-in-a-box/tree/main/
 https://github.com/azure-samples/app-templates-java-openai-springapps/tree/main/
 https://github.com/azure-samples/fastapi-on-azure-functions/tree/main/
 https://github.com/microsoft/aoai-logging-with-apim/tree/main/
@@ -109,7 +110,6 @@ https://github.com/azure-samples/summarization-openai-python-promptflow/tree/mai
 https://github.com/azure-samples/openai-langchainjs/tree/main/docs
 https://github.com/azure-samples/react-component-toolkit-openai-demo/tree/main/
 https://github.com/azure-samples/contoso-real-estate/tree/main/
-https://github.com/azure-samples/app-service-javascript-sap-cap-quickstart/tree/main/
 https://github.com/azure-samples/spring-chatgpt-sample/tree/main/
 https://github.com/azure-samples/asa-samples-event-driven-application/tree/main/
 https://github.com/azure-samples/azure-postgresql-labs/tree/main/
