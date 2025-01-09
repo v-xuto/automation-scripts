@@ -1,4 +1,5 @@
 https://github.com/dotnet/ai-samples
+https://github.com/Azure-Samples/dream-team
 https://github.com/azure/apicenter-analyzer
 https://github.com/azure/apicenter-portal-starter
 https://github.com/Azure-Samples/apicenter-reference
@@ -34,6 +35,7 @@ https://github.com/Azure-Samples/openai-aca-lb
 https://github.com/Azure-Samples/openai-secure-ui-js
 https://github.com/Azure-Samples/azd-deployment-environments
 https://github.com/azurecosmosdb/cosmosdb-nosql-copilot
+https://github.com/Azure-Samples/cargotracker-liberty-aks-azd
 https://github.com/Azure-Samples/openai-chat-vision-quickstart
 https://github.com/Azure-Samples/chat-with-your-data-solution-accelerator
 https://github.com/Azure-Samples/azure-search-openai-demo-csharp

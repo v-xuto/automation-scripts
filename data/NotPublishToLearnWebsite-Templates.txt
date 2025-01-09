@@ -1,8 +1,10 @@
+https://github.com/azure-samples/dream-team
 https://github.com/azure/apicenter-analyzer
 https://github.com/azure-samples/function-javascript-ai-openai-chatgpt
 https://github.com/azure-samples/function-python-ai-openai-chatgpt
 https://github.com/azure-samples/azure-openai-chat-frontend
 https://github.com/azure-samples/azd-deployment-environments
+https://github.com/azure-samples/cargotracker-liberty-aks-azd
 https://github.com/azure-samples/hello-azd
 https://github.com/azure/gpt-rag
 https://github.com/azure-samples/quote-of-the-day-dotnet
