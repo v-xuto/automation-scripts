@@ -1,14 +1,15 @@
-https://github.com/azure-samples/app-service-javascript-sap-cap-quickstart/tree/main/
-https://github.com/azure-samples/app-service-javascript-sap-cloud-sdk-quickstart/tree/main/
-https://github.com/azure-samples/chat-with-your-data-solution-accelerator/tree/main/
+https://github.com/azure-samples/azure-search-openai-demo/tree/main/
 https://github.com/azure-samples/agent-openai-python-prompty/tree/main/
+https://github.com/azure-samples/azure-search-openai-demo-java/tree/main/
 https://github.com/azure-samples/contoso-creative-writer/tree/main/
+https://github.com/azure-samples/chat-with-your-data-solution-accelerator/tree/main/
+https://github.com/azure-samples/app-service-javascript-sap-cloud-sdk-quickstart/tree/main/
+https://github.com/azure-samples/app-service-javascript-sap-cap-quickstart/tree/main/
 https://github.com/azure-samples/openai-chat-vision-quickstart/tree/main/
 https://github.com/azure-samples/serverless-chat-langchainjs/tree/main/docs
 https://github.com/dotnet/ai-samples/tree/main/
 https://github.com/azure-samples/openai-chat-app-entra-auth-builtin/tree/main/docs
 https://github.com/azure-samples/apptemplate-wordpress-on-aca/tree/main/
-https://github.com/azure-samples/azure-search-openai-demo/tree/main/
 https://github.com/azure-samples/langfuse-on-azure/tree/main/
 https://github.com/azure-samples/llama-index-azure-code-interpreter/tree/main/
 https://github.com/azure-samples/llama-index-python/tree/main/
@@ -26,8 +27,8 @@ https://github.com/azure-samples/cosmos-db-nosql-java-quickstart/tree/main/
 https://github.com/azure-samples/cosmos-db-table-nodejs-quickstart/tree/main/
 https://github.com/azure-samples/cosmos-db-nosql-dotnet-quickstart/tree/main/
 https://github.com/azure-samples/cosmos-db-nosql-python-quickstart/tree/main/
-https://github.com/azure-samples/cosmos-db-table-java-quickstart/tree/main/
 https://github.com/azure-samples/cosmos-db-nosql-nodejs-quickstart/tree/main/
+https://github.com/azure-samples/cosmos-db-table-java-quickstart/tree/main/
 https://github.com/azure-samples/contoso-chat/tree/main/
 https://github.com/azure-samples/agent-openai-java-banking-assistant/tree/main/
 https://github.com/azure-samples/cosmos-db-design-patterns/tree/main/
@@ -56,7 +57,6 @@ https://github.com/azure-samples/azure-openai-keyless-go/tree/main/
 https://github.com/azure-samples/functions-e2e-http-to-eventhubs/tree/main/
 https://github.com/azure-samples/functions-e2e-sb-vnet/tree/main/
 https://github.com/azure-samples/azure-openai-keyless-java/tree/main/
-https://github.com/azure-samples/azure-search-openai-demo-java/tree/main/
 https://github.com/azure-samples/function-python-ai-langchain/tree/main/
 https://github.com/azure-samples/azd-ai-starter/tree/main/
 https://github.com/azure-samples/function-csharp-ai-textsummarize/tree/main/
