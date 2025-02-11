@@ -109,3 +109,5 @@ https://github.com/azure-samples/java-on-aca-quarkus
 https://github.com/azure-samples/java-microservices-aca-lab
 https://github.com/azure-samples/spring-petclinic-ai
 https://github.com/azure-samples/genai-gateway-apim
+https://github.com/azure-samples/dream-team
+https://github.com/azure-samples/cargotracker-liberty-aks-azd
