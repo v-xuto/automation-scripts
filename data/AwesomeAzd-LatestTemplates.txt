@@ -4,6 +4,7 @@ https://github.com/azure/apicenter-analyzer
 https://github.com/azure/apicenter-portal-starter
 https://github.com/Azure-Samples/apicenter-reference
 https://github.com/Azure-Samples/azd-simple-fastapi-appservice
+https://github.com/Azure-Samples/azd-simple-flask-appservice
 https://github.com/Azure-Samples/azd-ai-starter
 https://github.com/Azure-Samples/azd-aistudio-starter
 https://github.com/Azure-Samples/openai-apim-lb
@@ -13,7 +14,10 @@ https://github.com/Azure-Samples/cosmos-db-nosql-java-quickstart
 https://github.com/Azure-Samples/cosmos-db-nosql-nodejs-quickstart
 https://github.com/Azure-Samples/cosmos-db-nosql-python-quickstart
 https://github.com/Azure-Samples/cosmos-db-table-dotnet-quickstart
+https://github.com/Azure-Samples/cosmos-db-table-go-quickstart
+https://github.com/Azure-Samples/cosmos-db-table-java-quickstart
 https://github.com/Azure-Samples/cosmos-db-table-nodejs-quickstart
+https://github.com/Azure-Samples/cosmos-db-table-python-quickstart
 https://github.com/Azure-Samples/function-eventhub-vnet
 https://github.com/Azure-Samples/function-javascript-ai-openai-chatgpt
 https://github.com/Azure-Samples/function-python-ai-openai-chatgpt
@@ -33,6 +37,7 @@ https://github.com/Azure-Samples/azure-sql-db-session-recommender-v2
 https://github.com/Azure-Samples/azure-sql-db-session-recommender
 https://github.com/Azure-Samples/azure-openai-keyless-js
 https://github.com/Azure-Samples/openai-aca-lb
+https://github.com/Azure-Samples/azure-openai-rag-workshop-java
 https://github.com/Azure-Samples/openai-secure-ui-js
 https://github.com/Azure-Samples/azd-deployment-environments
 https://github.com/azurecosmosdb/cosmosdb-nosql-copilot
@@ -45,8 +50,10 @@ https://github.com/Azure-Samples/todo-java-mongo-aca
 https://github.com/Azure-Samples/todo-nodejs-mongo-aca
 https://github.com/Azure-Samples/todo-python-mongo-aca
 https://github.com/Azure-Samples/contoso-chat
+https://github.com/Azure-Samples/azd-functions-sharepoint-webhooks
 https://github.com/Azure-Samples/agent-openai-python-prompty
 https://github.com/Azure-Samples/dab-azure-cosmos-db-nosql-quickstart
+https://github.com/Azure-Samples/dab-azure-sql-quickstart
 https://github.com/Azure-Samples/doc-intelligence-in-a-box
 https://github.com/Azure-Samples/azure-appconfig-aks
 https://github.com/Azure-Samples/contoso-real-estate
@@ -105,7 +112,8 @@ https://github.com/Azure-Samples/chatgpt-quickstart
 https://github.com/Azure-Samples/openai-chat-app-quickstart
 https://github.com/Azure-Samples/spring-chatgpt-sample
 https://github.com/Azure-Samples/spring-petclinic-java-mysql
-https://github.com/Azure-Samples/java-microservices-aca-lab
+https://github.com/Azure-Samples/java-on-aca
+https://github.com/Azure-Samples/springboot-petclinic-ai-chat-on-app-service
 https://github.com/Azure-Samples/spring-petclinic-ai
 https://github.com/Azure-Samples/azd-starter-bicep
 https://github.com/Azure-Samples/azd-starter-terraform

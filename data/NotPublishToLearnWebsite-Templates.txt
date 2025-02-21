@@ -1,9 +1,11 @@
 https://github.com/azure-samples/dream-team
 https://github.com/azure/apicenter-analyzer
 https://github.com/azure-samples/azd-simple-fastapi-appservice
+https://github.com/azure-samples/azd-simple-flask-appservice
 https://github.com/azure-samples/function-javascript-ai-openai-chatgpt
 https://github.com/azure-samples/function-python-ai-openai-chatgpt
 https://github.com/azure-samples/azure-openai-chat-frontend
+https://github.com/azure-samples/azure-openai-rag-workshop-java
 https://github.com/azure-samples/azd-deployment-environments
 https://github.com/azure-samples/agent-openai-python-prompty
 https://github.com/azure-samples/hello-azd
@@ -16,7 +18,8 @@ https://github.com/azure/reliable-web-app-pattern-dotnet
 https://github.com/azure-samples/genai-gateway-apim
 https://github.com/azure-samples/chatgpt-quickstart
 https://github.com/azure-samples/openai-chat-app-quickstart
-https://github.com/azure-samples/java-microservices-aca-lab
+https://github.com/azure-samples/java-on-aca
+https://github.com/azure-samples/springboot-petclinic-ai-chat-on-app-service
 https://github.com/azure-samples/spring-petclinic-ai
 https://github.com/azure-samples/azd-starter-bicep
 https://github.com/azure-samples/azd-starter-terraform
