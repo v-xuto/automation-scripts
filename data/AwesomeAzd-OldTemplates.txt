@@ -115,3 +115,12 @@ https://github.com/azure-samples/azd-simple-fastapi-appservice
 https://github.com/azure-samples/dab-azure-cosmos-db-nosql-quickstart
 https://github.com/azure-samples/llama-index-vector-search-javascript
 https://github.com/azure-samples/durable-functions-order-processing-python
+https://github.com/azure-samples/azd-simple-flask-appservice
+https://github.com/azure-samples/cosmos-db-table-go-quickstart
+https://github.com/azure-samples/cosmos-db-table-java-quickstart
+https://github.com/azure-samples/cosmos-db-table-python-quickstart
+https://github.com/azure-samples/azure-openai-rag-workshop-java
+https://github.com/azure-samples/azd-functions-sharepoint-webhooks
+https://github.com/azure-samples/dab-azure-sql-quickstart
+https://github.com/azure-samples/java-on-aca
+https://github.com/azure-samples/springboot-petclinic-ai-chat-on-app-service
