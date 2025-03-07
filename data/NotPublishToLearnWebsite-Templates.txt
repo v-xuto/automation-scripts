@@ -2,10 +2,10 @@ https://github.com/azure-samples/dream-team
 https://github.com/azure/apicenter-analyzer
 https://github.com/azure-samples/azd-simple-fastapi-appservice
 https://github.com/azure-samples/azd-simple-flask-appservice
+https://github.com/azure-samples/cosmos-db-table-go-quickstart
 https://github.com/azure-samples/function-javascript-ai-openai-chatgpt
 https://github.com/azure-samples/function-python-ai-openai-chatgpt
 https://github.com/azure-samples/azure-openai-chat-frontend
-https://github.com/azure-samples/azure-openai-rag-workshop-java
 https://github.com/azure-samples/azd-deployment-environments
 https://github.com/azure-samples/agent-openai-python-prompty
 https://github.com/azure-samples/hello-azd
