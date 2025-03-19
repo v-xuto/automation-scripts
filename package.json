@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "task-A":"node ./src/Awesome-CLI.js",
-    "task-L":"node ./src/Learn-Website.js"
+    "task-A": "node ./src/Awesome-CLI.js",
+    "task-L": "node ./src/Learn-Website.js",
+    "test": "npm run task-A && npm run task-L"
   },
   "dependencies": {
     "dotenv": "^16.4.5",

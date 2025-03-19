@@ -61,6 +61,7 @@ https://github.com/Azure-Samples/asa-samples-event-driven-application
 https://github.com/Azure-Samples/fastapi-on-azure-functions
 https://github.com/Azure-Samples/gpt-video-analysis-in-a-box
 https://github.com/Azure-Samples/hello-azd
+https://github.com/Azure-Samples/indexadillo
 https://github.com/Azure-Samples/cargotracker-liberty-aks-azd
 https://github.com/Azure-Samples/azure-search-openai-demo-java
 https://github.com/Azure-Samples/java-on-aca-quarkus
