@@ -34,5 +34,8 @@ This instruction `npm run task-L` is used to automate the comparison of template
 ```
 npm run task-L
 ```
+
+Or you can run `npm run test` directly, which will run `task-A` and `task-L`.
+
 ### Result 
 View the result in the corresponding file under the data folder.
