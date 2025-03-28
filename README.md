@@ -37,5 +37,7 @@ npm run task-L
 
 Or you can run `npm run test` directly, which will run `task-A` and `task-L`.
 
+**Note: Before executing `npm run test`, you need to update the latest `Microsoft Authored templates` in OneNote to the data/AwesomeAzd-OldTemplates.txt file.**
+
 ### Result 
 View the result in the corresponding file under the data folder.
