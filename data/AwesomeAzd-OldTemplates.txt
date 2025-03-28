@@ -124,3 +124,4 @@ https://github.com/azure-samples/azd-functions-sharepoint-webhooks
 https://github.com/azure-samples/dab-azure-sql-quickstart
 https://github.com/azure-samples/java-on-aca
 https://github.com/azure-samples/springboot-petclinic-ai-chat-on-app-service
+https://github.com/azure-samples/indexadillo
