@@ -104,6 +104,7 @@ https://github.com/azure/reliable-web-app-pattern-dotnet
 https://github.com/Azure-Samples/remote-mcp-functions-dotnet
 https://github.com/Azure-Samples/remote-mcp-functions-python
 https://github.com/Azure-Samples/remote-mcp-functions-typescript
+https://github.com/Azure-Samples/remote-mcp-apim-functions-python
 https://github.com/Azure-Samples/app-service-javascript-sap-cap-quickstart
 https://github.com/Azure-Samples/app-service-javascript-sap-cloud-sdk-quickstart
 https://github.com/Azure-Samples/functions-javascript-sap-cloud-sdk-quickstart
