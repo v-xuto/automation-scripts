@@ -125,3 +125,8 @@ https://github.com/azure-samples/dab-azure-sql-quickstart
 https://github.com/azure-samples/java-on-aca
 https://github.com/azure-samples/springboot-petclinic-ai-chat-on-app-service
 https://github.com/azure-samples/indexadillo
+https://github.com/Azure-Samples/eshoplite-semanticsearch-azureaisearch
+https://github.com/Azure-Samples/eshoplite-semanticsearch
+https://github.com/Azure-Samples/remote-mcp-functions-dotnet
+https://github.com/Azure-Samples/remote-mcp-functions-python
+https://github.com/Azure-Samples/remote-mcp-functions-typescript
