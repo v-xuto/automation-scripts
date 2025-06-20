@@ -1,7 +1,9 @@
 https://github.com/Azure-Samples/eshoplite-semanticsearch-azureaisearch
 https://github.com/Azure-Samples/eshoplite-semanticsearch
 https://github.com/dotnet/ai-samples
+https://github.com/Azure-Samples/openai-mcp-agent-dotnet
 https://github.com/Azure-Samples/dream-team
+https://github.com/Azure-Samples/snippy
 https://github.com/azure/apicenter-analyzer
 https://github.com/azure/apicenter-portal-starter
 https://github.com/Azure-Samples/apicenter-reference
@@ -26,6 +28,7 @@ https://github.com/Azure-Samples/function-python-ai-openai-chatgpt
 https://github.com/Azure-Samples/function-python-ai-langchain
 https://github.com/Azure-Samples/function-csharp-ai-textsummarize
 https://github.com/Azure-Samples/function-python-ai-textsummarize
+https://github.com/Azure-Samples/functions-quickstart-dotnet-azd-eventgrid-blob
 https://github.com/Azure-Samples/functions-quickstart-dotnet-azd
 https://github.com/Azure-Samples/azure-functions-java-flex-consumption-azd
 https://github.com/Azure-Samples/functions-quickstart-javascript-azd
@@ -41,6 +44,7 @@ https://github.com/Azure-Samples/azure-openai-keyless-js
 https://github.com/Azure-Samples/openai-aca-lb
 https://github.com/Azure-Samples/azure-openai-rag-workshop-java
 https://github.com/Azure-Samples/openai-secure-ui-js
+https://github.com/Azure-Samples/blazor-azure-sql-vector-search
 https://github.com/Azure-Samples/azd-deployment-environments
 https://github.com/azurecosmosdb/cosmosdb-nosql-copilot
 https://github.com/Azure-Samples/openai-chat-vision-quickstart
@@ -61,6 +65,7 @@ https://github.com/Azure-Samples/azure-appconfig-aks
 https://github.com/Azure-Samples/asa-samples-event-driven-application
 https://github.com/Azure-Samples/fastapi-on-azure-functions
 https://github.com/Azure-Samples/gpt-video-analysis-in-a-box
+https://github.com/azure/gpt-rag
 https://github.com/Azure-Samples/hello-azd
 https://github.com/Azure-Samples/indexadillo
 https://github.com/Azure-Samples/cargotracker-liberty-aks-azd
@@ -80,7 +85,6 @@ https://github.com/Azure-Samples/pubsub-dapr-python-servicebus
 https://github.com/Azure-Samples/svc-invoke-dapr-csharp
 https://github.com/Azure-Samples/svc-invoke-dapr-nodejs
 https://github.com/Azure-Samples/svc-invoke-dapr-python
-https://github.com/azure/gpt-rag
 https://github.com/Azure-Samples/nlp-sql-in-a-box
 https://github.com/Azure-Samples/durable-functions-order-processing
 https://github.com/Azure-Samples/durable-functions-order-processing-python
@@ -128,4 +132,5 @@ https://github.com/Azure-Samples/todo-nodejs-mongo-swa-func
 https://github.com/Azure-Samples/todo-python-mongo-swa-func
 https://github.com/Azure-Samples/asa-samples-web-application
 https://github.com/Azure-Samples/orleans-url-shortener
+https://github.com/Azure-Samples/vite-chat-interface
 https://github.com/Azure-Samples/apptemplate-wordpress-on-aca
