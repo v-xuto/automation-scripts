@@ -34,7 +34,13 @@ https://github.com/Azure-Samples/azure-functions-java-flex-consumption-azd
 https://github.com/Azure-Samples/functions-quickstart-javascript-azd
 https://github.com/Azure-Samples/functions-quickstart-powershell-azd
 https://github.com/Azure-Samples/functions-quickstart-python-http-azd
+https://github.com/Azure-Samples/functions-quickstart-python-azd-cosmosdb
+https://github.com/Azure-Samples/functions-quickstart-typescript-azd-cosmosdb
 https://github.com/Azure-Samples/functions-quickstart-typescript-azd
+https://github.com/Azure-Samples/functions-quickstart-dotnet-azd-cosmosdb
+https://github.com/Azure-Samples/functions-quickstart-dotnet-azd-sql
+https://github.com/Azure-Samples/functions-quickstart-python-azd-sql
+https://github.com/Azure-Samples/functions-quickstart-typescript-azd-sql
 https://github.com/Azure-Samples/aks-store-demo
 https://github.com/microsoft/aoai-logging-with-apim
 https://github.com/Azure-Samples/azure-openai-chat-frontend
@@ -90,6 +96,8 @@ https://github.com/Azure-Samples/durable-functions-order-processing
 https://github.com/Azure-Samples/durable-functions-order-processing-python
 https://github.com/Azure-Samples/azure-postgres-pgvector-python
 https://github.com/Azure-Samples/summarization-openai-python-promptflow
+https://github.com/Azure-Samples/azure-search-openai-demo-purviewdatasecurity
+https://github.com/Azure-Samples/serverless-chat-langchainjs-purview
 https://github.com/Azure-Samples/msdocs-django-postgresql-sample-app
 https://github.com/Azure-Samples/azure-django-postgres-aca
 https://github.com/Azure-Samples/msdocs-flask-postgresql-sample-app

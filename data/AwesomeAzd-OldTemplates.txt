@@ -13,7 +13,6 @@ https://github.com/Azure-Samples/azure-search-openai-javascript
 https://github.com/Azure-Samples/todo-java-mongo-aca
 https://github.com/Azure-Samples/todo-nodejs-mongo-aca
 https://github.com/Azure-Samples/todo-python-mongo-aca
-https://github.com/Azure-Samples/contoso-real-estate
 https://github.com/Azure-Samples/ASA-Samples-Event-Driven-Application
 https://github.com/Azure-Samples/fastapi-on-azure-functions
 https://github.com/Azure-Samples/azure-search-openai-demo-java
@@ -106,7 +105,6 @@ https://github.com/azure-samples/openai-secure-ui-js
 https://github.com/azure-samples/doc-intelligence-in-a-box
 https://github.com/azure-samples/durable-functions-order-processing
 https://github.com/azure-samples/java-on-aca-quarkus
-https://github.com/azure-samples/java-microservices-aca-lab
 https://github.com/azure-samples/spring-petclinic-ai
 https://github.com/azure-samples/genai-gateway-apim
 https://github.com/azure-samples/dream-team
@@ -130,3 +128,10 @@ https://github.com/Azure-Samples/eshoplite-semanticsearch
 https://github.com/Azure-Samples/remote-mcp-functions-dotnet
 https://github.com/Azure-Samples/remote-mcp-functions-python
 https://github.com/Azure-Samples/remote-mcp-functions-typescript
+https://github.com/Azure-Samples/remote-mcp-apim-functions-python
+https://github.com/azure-samples/openai-mcp-agent-dotnet
+https://github.com/azure-samples/snippy
+https://github.com/azure-samples/functions-quickstart-dotnet-azd-eventgrid-blob
+https://github.com/azure-samples/blazor-azure-sql-vector-search
+https://github.com/azure-samples/remote-mcp-apim-functions-python
+https://github.com/azure-samples/vite-chat-interface
