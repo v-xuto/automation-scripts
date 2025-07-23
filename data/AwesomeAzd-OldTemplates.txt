@@ -130,3 +130,10 @@ https://github.com/Azure-Samples/eshoplite-semanticsearch
 https://github.com/Azure-Samples/remote-mcp-functions-dotnet
 https://github.com/Azure-Samples/remote-mcp-functions-python
 https://github.com/Azure-Samples/remote-mcp-functions-typescript
+https://github.com/Azure-Samples/remote-mcp-apim-functions-python
+https://github.com/azure-samples/openai-mcp-agent-dotnet
+https://github.com/azure-samples/snippy
+https://github.com/azure-samples/functions-quickstart-dotnet-azd-eventgrid-blob
+https://github.com/azure-samples/blazor-azure-sql-vector-search
+https://github.com/azure-samples/remote-mcp-apim-functions-python
+https://github.com/azure-samples/vite-chat-interface

@@ -58,6 +58,7 @@ https://github.com/azure-samples/cosmos-db-mongodb-dotnet-quickstart/tree/main/
 https://github.com/azure-samples/cosmos-db-mongodb-nodejs-quickstart/tree/main/
 https://github.com/azure-samples/deepseek-js/tree/main/docs
 https://github.com/azure-samples/cosmos-db-mongodb-python-quickstart/tree/main/
+https://github.com/azure-samples/cosmos-db-table-java-quickstart/tree/main/
 https://github.com/azure-samples/llama-index-python/tree/main/
 https://github.com/azure-samples/contoso-chat/tree/main/
 https://github.com/azure-samples/azure-functions-completion-openai-java/tree/main/

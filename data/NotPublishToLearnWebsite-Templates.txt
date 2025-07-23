@@ -3,7 +3,6 @@ https://github.com/azure-samples/eshoplite-semanticsearch
 https://github.com/azure-samples/dream-team
 https://github.com/azure-samples/snippy
 https://github.com/azure/apicenter-analyzer
-https://github.com/azure-samples/cosmos-db-table-java-quickstart
 https://github.com/azure-samples/function-javascript-ai-openai-chatgpt
 https://github.com/azure-samples/function-python-ai-openai-chatgpt
 https://github.com/azure-samples/functions-quickstart-python-azd-cosmosdb
