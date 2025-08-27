@@ -135,3 +135,11 @@ https://github.com/azure-samples/functions-quickstart-dotnet-azd-eventgrid-blob
 https://github.com/azure-samples/blazor-azure-sql-vector-search
 https://github.com/azure-samples/remote-mcp-apim-functions-python
 https://github.com/azure-samples/vite-chat-interface
+https://github.com/azure-samples/functions-quickstart-python-azd-cosmosdb
+https://github.com/azure-samples/functions-quickstart-typescript-azd-cosmosdb
+https://github.com/azure-samples/functions-quickstart-dotnet-azd-cosmosdb
+https://github.com/azure-samples/functions-quickstart-dotnet-azd-sql
+https://github.com/azure-samples/functions-quickstart-python-azd-sql
+https://github.com/azure-samples/functions-quickstart-typescript-azd-sql
+https://github.com/azure-samples/azure-search-openai-demo-purviewdatasecurity
+https://github.com/azure-samples/serverless-chat-langchainjs-purview
