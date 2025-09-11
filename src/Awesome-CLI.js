@@ -20,9 +20,19 @@ async function main(page) {
 
     await page.goto(url)
 
+    // Wait for page to load completely
+    await page.waitForLoadState('networkidle')
+    
     let querySelector = ".fui-Input__input"
     let attribute = "value"
-    let strList = await auto.getWebListByPaging(page, querySelector, attribute)
+    
+    // Add pagination functionality - for awesome-azd website pagination buttons
+    // This selector may need to be adjusted based on the actual website pagination button structure
+    let pagingSelector = "button[aria-label*='Next'], button:has-text('Next'), [data-testid='pagination-next'], .ms-Button--primary:has-text('Next')"
+    
+    console.log(`Starting to access website: ${url}`)
+    
+    let strList = await auto.getWebListByPaging(page, querySelector, attribute, pagingSelector)
 
 
     let rows = await trimStrList(strList)
