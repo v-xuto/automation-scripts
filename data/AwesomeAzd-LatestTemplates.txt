@@ -79,7 +79,6 @@ https://github.com/Azure-Samples/azure-search-openai-demo-java
 https://github.com/Azure-Samples/java-on-aca-quarkus
 https://github.com/Azure-Samples/app-templates-java-openai-springapps
 https://github.com/Azure-Samples/todo-nodejs-mongo-aks
-https://github.com/Azure-Samples/langfuse-on-azure
 https://github.com/Azure-Samples/llama-index-vector-search-javascript
 https://github.com/Azure-Samples/bindings-dapr-csharp-cron-postgres
 https://github.com/Azure-Samples/bindings-dapr-nodejs-cron-postgres
