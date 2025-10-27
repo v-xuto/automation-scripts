@@ -63,7 +63,6 @@ https://github.com/Azure-Samples/chat-with-your-data-solution-accelerator
 https://github.com/Azure-Samples/contoso-chat
 https://github.com/Azure-Samples/agent-openai-python-prompty
 https://github.com/Azure-Samples/azure-appconfig-aks
-https://github.com/Azure-Samples/langfuse-on-azure
 https://github.com/Azure-Samples/azure-postgres-pgvector-python
 https://github.com/Azure-Samples/summarization-openai-python-promptflow
 https://github.com/Azure-Samples/rag-postgres-openai-python
@@ -143,3 +142,4 @@ https://github.com/azure-samples/functions-quickstart-python-azd-sql
 https://github.com/azure-samples/functions-quickstart-typescript-azd-sql
 https://github.com/azure-samples/azure-search-openai-demo-purviewdatasecurity
 https://github.com/azure-samples/serverless-chat-langchainjs-purview
+https://github.com/azure-samples/durable-functions-quickstart-dotnet-azd
