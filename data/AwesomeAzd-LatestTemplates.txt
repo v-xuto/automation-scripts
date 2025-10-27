@@ -67,6 +67,7 @@ https://github.com/Azure-Samples/agent-openai-python-prompty
 https://github.com/Azure-Samples/dab-azure-cosmos-db-nosql-quickstart
 https://github.com/Azure-Samples/dab-azure-sql-quickstart
 https://github.com/Azure-Samples/doc-intelligence-in-a-box
+https://github.com/Azure-Samples/durable-functions-quickstart-dotnet-azd
 https://github.com/Azure-Samples/azure-appconfig-aks
 https://github.com/Azure-Samples/asa-samples-event-driven-application
 https://github.com/Azure-Samples/fastapi-on-azure-functions
