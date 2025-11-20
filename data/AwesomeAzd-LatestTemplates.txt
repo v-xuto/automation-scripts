@@ -12,6 +12,7 @@ https://github.com/Azure-Samples/azd-simple-flask-appservice
 https://github.com/Azure-Samples/azd-ai-starter
 https://github.com/Azure-Samples/azd-aistudio-starter
 https://github.com/Azure-Samples/openai-apim-lb
+https://github.com/Azure-Samples/aca-python-code-interpreter-session
 https://github.com/Azure-Samples/cosmos-db-nosql-dotnet-quickstart
 https://github.com/Azure-Samples/cosmos-db-nosql-go-quickstart
 https://github.com/Azure-Samples/cosmos-db-nosql-java-quickstart
@@ -30,12 +31,17 @@ https://github.com/Azure-Samples/function-csharp-ai-textsummarize
 https://github.com/Azure-Samples/function-python-ai-textsummarize
 https://github.com/Azure-Samples/functions-quickstart-dotnet-azd-eventgrid-blob
 https://github.com/Azure-Samples/functions-quickstart-dotnet-azd
+https://github.com/Azure-Samples/functions-quickstart-java-azd-eventgrid-blob
 https://github.com/Azure-Samples/azure-functions-java-flex-consumption-azd
+https://github.com/Azure-Samples/functions-quickstart-javascript-azd-eventgrid-blob
 https://github.com/Azure-Samples/functions-quickstart-javascript-azd
+https://github.com/Azure-Samples/functions-quickstart-powershell-azd-eventgrid-blob
 https://github.com/Azure-Samples/functions-quickstart-powershell-azd
+https://github.com/Azure-Samples/functions-quickstart-python-azd-eventgrid-blob
 https://github.com/Azure-Samples/functions-quickstart-python-http-azd
 https://github.com/Azure-Samples/functions-quickstart-python-azd-cosmosdb
 https://github.com/Azure-Samples/functions-quickstart-typescript-azd-cosmosdb
+https://github.com/Azure-Samples/functions-quickstart-typescript-azd-eventgrid-blob
 https://github.com/Azure-Samples/functions-quickstart-typescript-azd
 https://github.com/Azure-Samples/functions-quickstart-dotnet-azd-cosmosdb
 https://github.com/Azure-Samples/functions-quickstart-dotnet-azd-sql
@@ -62,6 +68,7 @@ https://github.com/Azure-Samples/todo-java-mongo-aca
 https://github.com/Azure-Samples/todo-nodejs-mongo-aca
 https://github.com/Azure-Samples/todo-python-mongo-aca
 https://github.com/Azure-Samples/contoso-chat
+https://github.com/Azure-Samples/copilot-studio-with-azure-ai-search
 https://github.com/Azure-Samples/azd-functions-sharepoint-webhooks
 https://github.com/Azure-Samples/agent-openai-python-prompty
 https://github.com/Azure-Samples/dab-azure-cosmos-db-nosql-quickstart
@@ -117,6 +124,8 @@ https://github.com/Azure-Samples/remote-mcp-functions-dotnet
 https://github.com/Azure-Samples/remote-mcp-functions-python
 https://github.com/Azure-Samples/remote-mcp-functions-typescript
 https://github.com/Azure-Samples/remote-mcp-apim-functions-python
+https://github.com/Azure-Samples/azmcp-copilot-studio-aca-mi
+https://github.com/Azure-Samples/azmcp-foundry-aca-mi
 https://github.com/Azure-Samples/app-service-javascript-sap-cap-quickstart
 https://github.com/Azure-Samples/app-service-javascript-sap-cloud-sdk-quickstart
 https://github.com/Azure-Samples/functions-javascript-sap-cloud-sdk-quickstart

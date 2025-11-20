@@ -143,3 +143,12 @@ https://github.com/azure-samples/functions-quickstart-typescript-azd-sql
 https://github.com/azure-samples/azure-search-openai-demo-purviewdatasecurity
 https://github.com/azure-samples/serverless-chat-langchainjs-purview
 https://github.com/azure-samples/durable-functions-quickstart-dotnet-azd
+https://github.com/azure-samples/aca-python-code-interpreter-session
+https://github.com/azure-samples/functions-quickstart-java-azd-eventgrid-blob
+https://github.com/azure-samples/functions-quickstart-javascript-azd-eventgrid-blob
+https://github.com/azure-samples/functions-quickstart-powershell-azd-eventgrid-blob
+https://github.com/azure-samples/functions-quickstart-python-azd-eventgrid-blob
+https://github.com/azure-samples/functions-quickstart-typescript-azd-eventgrid-blob
+https://github.com/azure-samples/copilot-studio-with-azure-ai-search
+https://github.com/azure-samples/azmcp-copilot-studio-aca-mi
+https://github.com/azure-samples/azmcp-foundry-aca-mi
