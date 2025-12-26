@@ -3,6 +3,7 @@ https://github.com/Azure-Samples/eshoplite-semanticsearch
 https://github.com/dotnet/ai-samples
 https://github.com/Azure-Samples/openai-mcp-agent-dotnet
 https://github.com/Azure-Samples/dream-team
+https://github.com/Azure-Samples/azure-ai-travel-agents
 https://github.com/Azure-Samples/snippy
 https://github.com/azure/apicenter-analyzer
 https://github.com/azure/apicenter-portal-starter
@@ -68,7 +69,6 @@ https://github.com/Azure-Samples/todo-java-mongo-aca
 https://github.com/Azure-Samples/todo-nodejs-mongo-aca
 https://github.com/Azure-Samples/todo-python-mongo-aca
 https://github.com/Azure-Samples/contoso-chat
-https://github.com/Azure-Samples/copilot-studio-with-azure-ai-search
 https://github.com/Azure-Samples/azd-functions-sharepoint-webhooks
 https://github.com/Azure-Samples/agent-openai-python-prompty
 https://github.com/Azure-Samples/dab-azure-cosmos-db-nosql-quickstart
@@ -78,6 +78,7 @@ https://github.com/Azure-Samples/durable-functions-quickstart-dotnet-azd
 https://github.com/Azure-Samples/azure-appconfig-aks
 https://github.com/Azure-Samples/asa-samples-event-driven-application
 https://github.com/Azure-Samples/fastapi-on-azure-functions
+https://github.com/Azure-Samples/get-started-with-ai-agents
 https://github.com/Azure-Samples/gpt-video-analysis-in-a-box
 https://github.com/azure/gpt-rag
 https://github.com/Azure-Samples/hello-azd
@@ -88,6 +89,7 @@ https://github.com/Azure-Samples/java-on-aca-quarkus
 https://github.com/Azure-Samples/app-templates-java-openai-springapps
 https://github.com/Azure-Samples/todo-nodejs-mongo-aks
 https://github.com/Azure-Samples/llama-index-vector-search-javascript
+https://github.com/Azure-Samples/mcp-container-ts
 https://github.com/Azure-Samples/bindings-dapr-csharp-cron-postgres
 https://github.com/Azure-Samples/bindings-dapr-nodejs-cron-postgres
 https://github.com/Azure-Samples/bindings-dapr-python-cron-postgres
@@ -116,10 +118,7 @@ https://github.com/Azure-Samples/todo-csharp-cosmos-sql
 https://github.com/Azure-Samples/todo-csharp-sql
 https://github.com/Azure-Samples/todo-java-mongo
 https://github.com/Azure-Samples/todo-nodejs-mongo
-https://github.com/Azure-Samples/todo-nodejs-mongo-terraform
 https://github.com/Azure-Samples/todo-python-mongo
-https://github.com/Azure-Samples/todo-python-mongo-terraform
-https://github.com/azure/reliable-web-app-pattern-dotnet
 https://github.com/Azure-Samples/remote-mcp-functions-dotnet
 https://github.com/Azure-Samples/remote-mcp-functions-python
 https://github.com/Azure-Samples/remote-mcp-functions-typescript
@@ -129,11 +128,11 @@ https://github.com/Azure-Samples/azmcp-foundry-aca-mi
 https://github.com/Azure-Samples/app-service-javascript-sap-cap-quickstart
 https://github.com/Azure-Samples/app-service-javascript-sap-cloud-sdk-quickstart
 https://github.com/Azure-Samples/functions-javascript-sap-cloud-sdk-quickstart
+https://github.com/Azure-Samples/image-search-aisearch
 https://github.com/Azure-Samples/azure-openai-assistant-javascript
 https://github.com/Azure-Samples/llama-index-javascript
 https://github.com/Azure-Samples/llama-index-python
 https://github.com/Azure-Samples/serverless-chat-langchainjs
-https://github.com/azure/enterprise-azureai
 https://github.com/Azure-Samples/genai-gateway-apim
 https://github.com/Azure-Samples/chatgpt-quickstart
 https://github.com/Azure-Samples/openai-chat-app-quickstart
@@ -150,4 +149,5 @@ https://github.com/Azure-Samples/todo-python-mongo-swa-func
 https://github.com/Azure-Samples/asa-samples-web-application
 https://github.com/Azure-Samples/orleans-url-shortener
 https://github.com/Azure-Samples/vite-chat-interface
+https://github.com/Azure-Samples/aisearch-openai-rag-audio
 https://github.com/Azure-Samples/apptemplate-wordpress-on-aca
