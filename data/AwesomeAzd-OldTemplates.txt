@@ -152,3 +152,8 @@ https://github.com/azure-samples/functions-quickstart-typescript-azd-eventgrid-b
 https://github.com/azure-samples/copilot-studio-with-azure-ai-search
 https://github.com/azure-samples/azmcp-copilot-studio-aca-mi
 https://github.com/azure-samples/azmcp-foundry-aca-mi
+https://github.com/azure-samples/azure-ai-travel-agents
+https://github.com/azure-samples/get-started-with-ai-agents
+https://github.com/azure-samples/mcp-container-ts
+https://github.com/azure-samples/image-search-aisearch
+https://github.com/azure-samples/aisearch-openai-rag-audio
