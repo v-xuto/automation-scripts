@@ -157,3 +157,5 @@ https://github.com/azure-samples/get-started-with-ai-agents
 https://github.com/azure-samples/mcp-container-ts
 https://github.com/azure-samples/image-search-aisearch
 https://github.com/azure-samples/aisearch-openai-rag-audio
+https://github.com/azure-samples/functions-quickstart-dotnet-azd-timer
+https://github.com/azure/enterprise-azureai

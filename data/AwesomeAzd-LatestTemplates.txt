@@ -32,6 +32,7 @@ https://github.com/Azure-Samples/function-csharp-ai-textsummarize
 https://github.com/Azure-Samples/function-python-ai-textsummarize
 https://github.com/Azure-Samples/functions-quickstart-dotnet-azd-eventgrid-blob
 https://github.com/Azure-Samples/functions-quickstart-dotnet-azd
+https://github.com/Azure-Samples/functions-quickstart-dotnet-azd-timer
 https://github.com/Azure-Samples/functions-quickstart-java-azd-eventgrid-blob
 https://github.com/Azure-Samples/azure-functions-java-flex-consumption-azd
 https://github.com/Azure-Samples/functions-quickstart-javascript-azd-eventgrid-blob
@@ -79,6 +80,7 @@ https://github.com/Azure-Samples/azure-appconfig-aks
 https://github.com/Azure-Samples/asa-samples-event-driven-application
 https://github.com/Azure-Samples/fastapi-on-azure-functions
 https://github.com/Azure-Samples/get-started-with-ai-agents
+https://github.com/Azure-Samples/remote-mcp-functions-java
 https://github.com/Azure-Samples/gpt-video-analysis-in-a-box
 https://github.com/azure/gpt-rag
 https://github.com/Azure-Samples/hello-azd

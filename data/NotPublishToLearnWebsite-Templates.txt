@@ -16,6 +16,7 @@ https://github.com/azure-samples/blazor-azure-sql-vector-search
 https://github.com/azure-samples/azd-deployment-environments
 https://github.com/azure-samples/agent-openai-python-prompty
 https://github.com/azure-samples/get-started-with-ai-agents
+https://github.com/azure-samples/remote-mcp-functions-java
 https://github.com/azure/gpt-rag
 https://github.com/azure-samples/hello-azd
 https://github.com/azure-samples/indexadillo
