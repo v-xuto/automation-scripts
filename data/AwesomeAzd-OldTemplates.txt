@@ -36,10 +36,7 @@ https://github.com/Azure-Samples/todo-csharp-cosmos-sql
 https://github.com/Azure-Samples/todo-csharp-sql
 https://github.com/Azure-Samples/todo-java-mongo
 https://github.com/Azure-Samples/todo-nodejs-mongo
-https://github.com/Azure-Samples/todo-nodejs-mongo-terraform
 https://github.com/Azure-Samples/todo-python-mongo
-https://github.com/Azure-Samples/todo-python-mongo-terraform
-https://github.com/Azure/reliable-web-app-pattern-dotnet
 https://github.com/Azure-Samples/app-service-javascript-sap-cloud-sdk-quickstart
 https://github.com/Azure-Samples/chatgpt-quickstart
 https://github.com/Azure-Samples/spring-chatgpt-sample
@@ -68,7 +65,6 @@ https://github.com/Azure-Samples/summarization-openai-python-promptflow
 https://github.com/Azure-Samples/rag-postgres-openai-python
 https://github.com/Azure-Samples/app-service-javascript-sap-cap-quickstart
 https://github.com/Azure-Samples/functions-javascript-sap-cloud-sdk-quickstart
-https://github.com/Azure/enterprise-azureai
 https://github.com/Azure-Samples/openai-chat-app-quickstart
 https://github.com/Azure/APICenter-Analyzer
 https://github.com/Azure/APICenter-Portal-Starter
@@ -158,4 +154,12 @@ https://github.com/azure-samples/mcp-container-ts
 https://github.com/azure-samples/image-search-aisearch
 https://github.com/azure-samples/aisearch-openai-rag-audio
 https://github.com/azure-samples/functions-quickstart-dotnet-azd-timer
-https://github.com/azure/enterprise-azureai
+https://github.com/seligj95/app-service-foundry-chat
+https://github.com/azure-samples/dynamic-sessions-custom-container
+https://github.com/azure-samples/functions-quickstart-dotnet-azd-eventhub
+https://github.com/azure-samples/functions-quickstart-python-azd-eventhub
+https://github.com/azure-samples/functions-quickstart-typescript-azd-eventhub
+https://github.com/azure-samples/copilot-sdk-service
+https://github.com/microsoft/data-and-agent-governance-and-security-accelerator
+https://github.com/azure-samples/remote-mcp-functions-java
+https://github.com/azure-samples/apim-unified-ai-gateway-sample

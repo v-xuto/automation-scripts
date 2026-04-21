@@ -37,10 +37,13 @@ https://github.com/Azure-Samples/functions-quickstart-dotnet-azd-eventgrid-blob
 https://github.com/Azure-Samples/functions-quickstart-dotnet-azd
 https://github.com/Azure-Samples/functions-quickstart-dotnet-azd-timer
 https://github.com/Azure-Samples/functions-quickstart-java-azd-eventgrid-blob
+https://github.com/Azure-Samples/functions-quickstart-java-azd-eventhub
 https://github.com/Azure-Samples/azure-functions-java-flex-consumption-azd
 https://github.com/Azure-Samples/functions-quickstart-javascript-azd-eventgrid-blob
+https://github.com/Azure-Samples/functions-quickstart-javascript-azd-eventhub
 https://github.com/Azure-Samples/functions-quickstart-javascript-azd
 https://github.com/Azure-Samples/functions-quickstart-powershell-azd-eventgrid-blob
+https://github.com/Azure-Samples/functions-quickstart-powershell-azd-eventhub
 https://github.com/Azure-Samples/functions-quickstart-powershell-azd
 https://github.com/Azure-Samples/functions-quickstart-python-azd-eventgrid-blob
 https://github.com/Azure-Samples/functions-quickstart-python-azd-eventhub
@@ -92,6 +95,10 @@ https://github.com/Azure-Samples/remote-mcp-functions-java
 https://github.com/Azure-Samples/gpt-video-analysis-in-a-box
 https://github.com/azure/gpt-rag
 https://github.com/Azure-Samples/hello-azd
+https://github.com/Azure-Samples/mcp-sdk-functions-hosting-dotnet
+https://github.com/Azure-Samples/mcp-sdk-functions-hosting-java
+https://github.com/Azure-Samples/mcp-sdk-functions-hosting-python
+https://github.com/Azure-Samples/mcp-sdk-functions-hosting-node
 https://github.com/Azure-Samples/indexadillo
 https://github.com/Azure-Samples/cargotracker-liberty-aks-azd
 https://github.com/Azure-Samples/azure-search-openai-demo-java
