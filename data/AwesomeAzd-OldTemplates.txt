@@ -170,3 +170,7 @@ https://github.com/azure-samples/mcp-sdk-functions-hosting-dotnet
 https://github.com/azure-samples/mcp-sdk-functions-hosting-java
 https://github.com/azure-samples/mcp-sdk-functions-hosting-python
 https://github.com/azure-samples/mcp-sdk-functions-hosting-node
+https://github.com/azure-samples/functions-quickstart-java-azd-cosmosdb
+https://github.com/azure-samples/functions-quickstart-javascript-azd-cosmosdb
+https://github.com/azure-samples/functions-quickstart-powershell-azd-cosmosdb
+https://github.com/azure-samples/functions-quickstart-python-azd-service-bus
