@@ -36,12 +36,15 @@ https://github.com/Azure-Samples/functions-quickstart-dotnet-azd-eventhub
 https://github.com/Azure-Samples/functions-quickstart-dotnet-azd-eventgrid-blob
 https://github.com/Azure-Samples/functions-quickstart-dotnet-azd
 https://github.com/Azure-Samples/functions-quickstart-dotnet-azd-timer
+https://github.com/Azure-Samples/functions-quickstart-java-azd-cosmosdb
 https://github.com/Azure-Samples/functions-quickstart-java-azd-eventgrid-blob
 https://github.com/Azure-Samples/functions-quickstart-java-azd-eventhub
 https://github.com/Azure-Samples/azure-functions-java-flex-consumption-azd
+https://github.com/Azure-Samples/functions-quickstart-javascript-azd-cosmosdb
 https://github.com/Azure-Samples/functions-quickstart-javascript-azd-eventgrid-blob
 https://github.com/Azure-Samples/functions-quickstart-javascript-azd-eventhub
 https://github.com/Azure-Samples/functions-quickstart-javascript-azd
+https://github.com/Azure-Samples/functions-quickstart-powershell-azd-cosmosdb
 https://github.com/Azure-Samples/functions-quickstart-powershell-azd-eventgrid-blob
 https://github.com/Azure-Samples/functions-quickstart-powershell-azd-eventhub
 https://github.com/Azure-Samples/functions-quickstart-powershell-azd
@@ -54,6 +57,7 @@ https://github.com/Azure-Samples/functions-quickstart-typescript-azd-eventgrid-b
 https://github.com/Azure-Samples/functions-quickstart-typescript-azd-eventhub
 https://github.com/Azure-Samples/functions-quickstart-typescript-azd
 https://github.com/Azure-Samples/functions-quickstart-dotnet-azd-cosmosdb
+https://github.com/Azure-Samples/functions-quickstart-python-azd-service-bus
 https://github.com/Azure-Samples/functions-quickstart-dotnet-azd-sql
 https://github.com/Azure-Samples/functions-quickstart-python-azd-sql
 https://github.com/Azure-Samples/functions-quickstart-typescript-azd-sql
