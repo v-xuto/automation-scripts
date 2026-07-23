@@ -9,7 +9,6 @@ https://github.com/Azure-Samples/openai-aca-lb
 https://github.com/Azure-Samples/azd-deployment-environments
 https://github.com/Azure-Samples/azure-search-openai-demo-csharp
 https://github.com/Azure-Samples/azure-search-openai-demo
-https://github.com/Azure-Samples/azure-search-openai-javascript
 https://github.com/Azure-Samples/todo-java-mongo-aca
 https://github.com/Azure-Samples/todo-nodejs-mongo-aca
 https://github.com/Azure-Samples/todo-python-mongo-aca
@@ -179,7 +178,6 @@ https://github.com/microsoft/app-with-sharepoint-knowledge
 https://github.com/azure-samples/azureai-basic-python
 https://github.com/azure-samples/azure-functions-completion-openai-java
 https://github.com/azure-samples/azure-functions-flex-consumption-with-azure-files-os-mount-samples
-https://github.com/azure-samples/azure-functions-openai-aisearch-node
 https://github.com/azure-samples/azure-language-openai-conversational-agent-accelerator
 https://github.com/azure-samples/agent-openai-java-banking-assistant
 https://github.com/microsoft/build-your-own-copilot-solution-accelerator
@@ -212,3 +210,16 @@ https://github.com/microsoft/release-manager-assistant
 https://github.com/azure-samples/azure-redis-dalle-semantic-caching
 https://github.com/azure-samples/sovereign-chat-experience-starter
 https://github.com/azure-samples/video-agents-foundry-solution
+https://github.com/azure-samples/functions-quickstart-dotnet-azd-tf
+https://github.com/azure-samples/functions-quickstart-java-azd-timer
+https://github.com/azure-samples/functions-quickstart-javascript-azd-timer
+https://github.com/azure-samples/functions-quickstart-powershell-azd-timer
+https://github.com/azure-samples/functions-quickstart-python-azd-timer
+https://github.com/azure-samples/functions-quickstart-typescript-azd-timer
+https://github.com/azure-samples/durable-functions-quickstart-java-azd
+https://github.com/azure-samples/durable-functions-quickstart-javascript-azd
+https://github.com/azure-samples/durable-functions-quickstart-powershell-azd
+https://github.com/azure-samples/durable-functions-quickstart-python-azd
+https://github.com/azure-samples/durable-functions-quickstart-typescript-azd
+https://github.com/azure-samples/mcp-functions-long-running-tools
+https://github.com/azure-samples/remote-mcp-functions-javascript
