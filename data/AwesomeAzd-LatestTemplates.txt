@@ -107,12 +107,14 @@ https://github.com/Azure-Samples/contoso-creative-writer
 https://github.com/Azure-Samples/agent-openai-python-prompty
 https://github.com/Azure-Samples/semantic-kernel-customer-assistant-demo-java
 https://github.com/microsoft/customer-chatbot-solution-accelerator
+https://github.com/Azure-Samples/simple-foundry-hosted-agent-python-aigateway
 https://github.com/microsoft/data-and-agent-governance-and-security-accelerator
 https://github.com/Azure-Samples/dab-azure-cosmos-db-nosql-quickstart
 https://github.com/Azure-Samples/dab-azure-sql-quickstart
 https://github.com/microsoft/deploy-your-ai-application-in-production
 https://github.com/Azure-Samples/doc-intelligence-in-a-box
 https://github.com/microsoft/document-generation-solution-accelerator
+https://github.com/Azure-Samples/document-reviewer
 https://github.com/Azure-Samples/durable-functions-quickstart-dotnet-azd
 https://github.com/Azure-Samples/durable-functions-quickstart-java-azd
 https://github.com/Azure-Samples/durable-functions-quickstart-javascript-azd
@@ -145,6 +147,7 @@ https://github.com/Azure-Samples/app-templates-java-openai-springapps
 https://github.com/Azure-Samples/todo-nodejs-mongo-aks
 https://github.com/Azure-Samples/llama-index-vector-search-javascript
 https://github.com/Azure-Samples/mcp-functions-long-running-tools
+https://github.com/Azure-Samples/m365-inbox-serverless-agent-python
 https://github.com/Azure-Samples/mcp-container-ts
 https://github.com/Azure-Samples/bindings-dapr-csharp-cron-postgres
 https://github.com/Azure-Samples/bindings-dapr-nodejs-cron-postgres
@@ -201,6 +204,7 @@ https://github.com/Azure-Samples/azure-openai-assistant-javascript
 https://github.com/Azure-Samples/llama-index-javascript
 https://github.com/Azure-Samples/llama-index-python
 https://github.com/Azure-Samples/serverless-chat-langchainjs
+https://github.com/Azure-Samples/expense-processor
 https://github.com/Azure-Samples/genai-gateway-apim
 https://github.com/Azure-Samples/chatgpt-quickstart
 https://github.com/Azure-Samples/openai-chat-app-quickstart

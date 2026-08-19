@@ -1,7 +1,15 @@
-https://github.com/azure-samples/chat-with-your-data-solution-accelerator/tree/main/
+https://github.com/azure-samples/remote-mcp-functions-dotnet/tree/main/
+https://github.com/azure-samples/app-service-javascript-sap-cloud-sdk-quickstart/tree/main/
+https://github.com/azure-samples/msdocs-django-postgresql-sample-app/tree/main/
+https://github.com/azure-samples/msdocs-flask-postgresql-sample-app/tree/main/
+https://github.com/azure-samples/durable-functions-quickstart-dotnet-azd/tree/main/
 https://github.com/azure-samples/azure-search-openai-demo/tree/main/
-https://github.com/azure-samples/aks-store-demo/tree/main/
 https://github.com/azure-samples/image-search-aisearch/tree/main/
+https://github.com/azure-samples/durable-functions-quickstart-powershell-azd/tree/main/
+https://github.com/azure-samples/durable-functions-quickstart-python-azd/tree/main/
+https://github.com/azure-samples/durable-functions-quickstart-typescript-azd/tree/main/
+https://github.com/azure-samples/durable-functions-quickstart-javascript-azd/tree/main/
+https://github.com/azure-samples/aks-store-demo/tree/main/
 https://github.com/azure-samples/remote-mcp-functions-typescript/tree/main/
 https://github.com/azure-samples/rag-postgres-openai-python/tree/main/docs
 https://github.com/azure-samples/azure-openai-entity-extraction/tree/main/
@@ -12,12 +20,14 @@ https://github.com/azure-samples/openai-chat-app-entra-auth-builtin/tree/main/do
 https://github.com/azure-samples/openai-chat-vision-quickstart/tree/main/
 https://github.com/azure-samples/cosmos-db-design-patterns/tree/main/
 https://github.com/azure-samples/azd-functions-sharepoint-webhooks/tree/main/
-https://github.com/azure-samples/app-service-javascript-sap-cloud-sdk-quickstart/tree/main/
+https://github.com/azure-samples/functions-quickstart-powershell-azd-timer/tree/main/
+https://github.com/azure-samples/functions-quickstart-javascript-azd-timer/tree/main/
 https://github.com/azure-samples/functions-quickstart-python-azd-timer/tree/main/
 https://github.com/azure-samples/llama-index-javascript/tree/main/
 https://github.com/azure-samples/functions-quickstart-javascript-azd-eventgrid-blob/tree/main/
 https://github.com/azure-samples/functions-quickstart-typescript-azd-eventgrid-blob/tree/main/
 https://github.com/azure-samples/functions-e2e-http-to-eventhubs/tree/main/
+https://github.com/azure-samples/functions-quickstart-dotnet-azd-tf/tree/main/
 https://github.com/azure-samples/azure-search-openai-demo-purviewdatasecurity/tree/main/
 https://github.com/azure-samples/remote-mcp-functions-java/tree/main/
 https://github.com/azure-samples/remote-mcp-functions-python/tree/main/
@@ -27,8 +37,6 @@ https://github.com/azure-samples/functions-quickstart-python-azd-cosmosdb/tree/m
 https://github.com/azure-samples/functions-quickstart-java-azd-cosmosdb/tree/main/
 https://github.com/azure-samples/functions-quickstart-dotnet-azd-cosmosdb/tree/main/
 https://github.com/azure-samples/functions-quickstart-javascript-azd-cosmosdb/tree/main/
-https://github.com/azure-samples/remote-mcp-functions-dotnet/tree/main/
-https://github.com/azure-samples/durable-functions-quickstart-dotnet-azd/tree/main/
 https://github.com/azure-samples/todo-python-mongo-aca/tree/main/
 https://github.com/azure-samples/functions-quickstart-powershell-azd-eventhub/tree/main/
 https://github.com/azure-samples/functions-quickstart-python-azd-service-bus/tree/main/
@@ -77,7 +85,6 @@ https://github.com/azure-samples/functions-quickstart-dotnet-azd-eventgrid-blob/
 https://github.com/azurecosmosdb/cosmosdb-nosql-copilot/tree/main/
 https://github.com/azure-samples/remote-mcp-apim-functions-python/tree/main/
 https://github.com/azure-samples/azd-ai-starter/tree/main/
-https://github.com/azure-samples/msdocs-flask-postgresql-sample-app/tree/main/
 https://github.com/azure-samples/azure-appconfig-aks/tree/main/
 https://github.com/azure-samples/azure-openai-rag-workshop-java/tree/main/
 https://github.com/azure-samples/azure-search-openai-demo-csharp/tree/main/
@@ -93,7 +100,6 @@ https://github.com/azure-samples/todo-csharp-sql/tree/main/
 https://github.com/azure-samples/intelligent-pdf-summarizer-dotnet/tree/main/
 https://github.com/azure-samples/java-on-aca-quarkus/tree/main/
 https://github.com/azure-samples/llama-index-python/tree/main/
-https://github.com/azure-samples/msdocs-django-postgresql-sample-app/tree/main/
 https://github.com/azure-samples/azure-openai-keyless-js/tree/main/docs
 https://github.com/azure-samples/openai-secure-ui-js/tree/main/docs
 https://github.com/azure-samples/azure-search-openai-javascript/tree/main/docs
@@ -113,8 +119,6 @@ https://github.com/azure-samples/apicenter-reference/tree/main/docs
 https://github.com/azure-samples/literalai-azure/tree/main/
 https://github.com/azure-samples/openai-apim-lb/tree/main/
 https://github.com/azure-samples/azure-openai-assistant-javascript/tree/main/docs
-https://github.com/azure-samples/openai-aca-lb/tree/main/docs
 https://github.com/azure-samples/openai-langchainjs/tree/main/docs
-https://github.com/azure-samples/spring-chatgpt-sample/tree/main/
 https://github.com/azure-samples/asa-samples-event-driven-application/tree/main/
 https://github.com/azure-samples/pubsub-dapr-aks-java/tree/main/
