@@ -223,3 +223,7 @@ https://github.com/azure-samples/durable-functions-quickstart-python-azd
 https://github.com/azure-samples/durable-functions-quickstart-typescript-azd
 https://github.com/azure-samples/mcp-functions-long-running-tools
 https://github.com/azure-samples/remote-mcp-functions-javascript
+https://github.com/azure-samples/simple-foundry-hosted-agent-python-aigateway
+https://github.com/azure-samples/document-reviewer
+https://github.com/azure-samples/m365-inbox-serverless-agent-python
+https://github.com/azure-samples/expense-processor
