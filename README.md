@@ -24,7 +24,7 @@ npm install
 npx playwright install
 ```
 ### Run code
-This instruction `npm run task-A` is used for automatic check Awesome Azure Developer CLI changes of templates, and output the new and deleted templates to the AwesomeAzd-CompareResult.json file in the data folder.
+This instruction `npm run task-A` is used for automatic check Awesome Azure Developer CLI changes of templates, and output the new and deleted templates to the AwesomeAzd-CompareResult.json file in the data folder. After the comparison, entries in `deleteList` are automatically removed from `AwesomeAzd-OldTemplates.txt`.
 
 ```
 npm run task-A

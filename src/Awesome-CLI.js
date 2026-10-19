@@ -43,6 +43,7 @@ async function main(page) {
     let res = await file.compare(oldFilePath, newFilePath)
 
     await file.writeJson(resultFilePath, res)
+    await file.removeTxtItems(oldFilePath, res.deleteList, "Remove deleted templates from old data")
 
 }
 

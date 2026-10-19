@@ -106,6 +106,14 @@ const compare = async (oldFilePath, newFilePath) => {
 }
 
 
+// Remove matching entries from a TXT file
+const removeTxtItems = async (filePath, items, message = "") => {
+    const itemsToRemove = new Set(items.map(item => item.trim().toLowerCase()))
+    const lines = await readTxt(filePath)
+    const remainingLines = lines.filter(line => !itemsToRemove.has(line.toLowerCase()))
+    await writeTxt(filePath, remainingLines, `${message ? message : "Removed matching TXT entries"}`)    return remainingLines
+}
+
 // Handle file blank lines and formatting, etc
 const formatFile = async (oldFilePath, message = "") => {
     let lines = await readTxt(oldFilePath)
@@ -143,6 +151,7 @@ module.exports = {
     refreshTxt,
 
     compare,
+    removeTxtItems,
     formatFile,
     duplicate
 }
