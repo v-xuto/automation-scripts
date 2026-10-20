@@ -1,4 +1,4 @@
-https://github.com/Azure-Samples/dream-team
+https://github.com/azure/agent-landing-zone
 https://github.com/microsoft/agentic-applications-for-unified-data-foundation-solution-accelerator
 https://github.com/microsoft/app-with-sharepoint-knowledge
 https://github.com/Azure-Samples/azure-ai-travel-agents
@@ -18,6 +18,7 @@ https://github.com/Azure-Samples/functions-quickstart-dotnet-azd
 https://github.com/Azure-Samples/functions-quickstart-dotnet-azd-tf
 https://github.com/Azure-Samples/functions-quickstart-dotnet-azd-timer
 https://github.com/Azure-Samples/azure-functions-flex-consumption-with-azure-files-os-mount-samples
+https://github.com/Azure-Samples/hosted-skills-expense-processor
 https://github.com/Azure-Samples/functions-quickstart-java-azd-cosmosdb
 https://github.com/Azure-Samples/functions-quickstart-java-azd-eventgrid-blob
 https://github.com/Azure-Samples/functions-quickstart-java-azd-eventhub
@@ -50,7 +51,6 @@ https://github.com/Azure-Samples/functions-quickstart-python-azd-sql
 https://github.com/Azure-Samples/functions-quickstart-typescript-azd-sql
 https://github.com/Azure-Samples/aks-store-demo
 https://github.com/Azure-Samples/azure-language-openai-conversational-agent-accelerator
-https://github.com/microsoft/aoai-logging-with-apim
 https://github.com/Azure-Samples/azure-openai-chat-frontend
 https://github.com/Azure-Samples/azure-sql-db-session-recommender-v2
 https://github.com/Azure-Samples/azure-openai-keyless-js
@@ -60,13 +60,11 @@ https://github.com/Azure-Samples/blazor-azure-sql-vector-search
 https://github.com/Azure-Samples/agent-openai-java-banking-assistant
 https://github.com/Azure-Samples/azd-deployment-environments
 https://github.com/azurecosmosdb/cosmosdb-nosql-copilot
-https://github.com/microsoft/build-your-own-copilot-solution-accelerator
 https://github.com/Azure-Samples/call-center-voice-agent-accelerator
 https://github.com/Azure-Samples/openai-chat-vision-quickstart
 https://github.com/Azure-Samples/chat-with-your-data-solution-accelerator
 https://github.com/Azure-Samples/azure-search-openai-demo-csharp
 https://github.com/Azure-Samples/azure-search-openai-demo
-https://github.com/microsoft/container-migration-solution-accelerator
 https://github.com/microsoft/conversation-knowledge-mining-solution-accelerator
 https://github.com/Azure-Samples/copilot-studio-with-azure-ai-search
 https://github.com/microsoft/unified-data-foundation-with-fabric-solution-accelerator
@@ -75,10 +73,7 @@ https://github.com/Azure-Samples/contoso-creative-writer
 https://github.com/Azure-Samples/semantic-kernel-customer-assistant-demo-java
 https://github.com/microsoft/customer-chatbot-solution-accelerator
 https://github.com/Azure-Samples/simple-foundry-hosted-agent-python-aigateway
-https://github.com/microsoft/data-and-agent-governance-and-security-accelerator
-https://github.com/microsoft/deploy-your-ai-application-in-production
 https://github.com/Azure-Samples/doc-intelligence-in-a-box
-https://github.com/microsoft/content-generation-solution-accelerator
 https://github.com/Azure-Samples/document-reviewer
 https://github.com/Azure-Samples/durable-functions-quickstart-dotnet-azd
 https://github.com/Azure-Samples/durable-functions-quickstart-java-azd
@@ -94,7 +89,6 @@ https://github.com/Azure-Samples/get-started-with-ai-chat
 https://github.com/Azure-Samples/get-started-with-ai-agents
 https://github.com/Azure-Samples/remote-mcp-functions-java
 https://github.com/Azure-Samples/gpt-video-analysis-in-a-box
-https://github.com/azure/gpt-rag
 https://github.com/Azure-Samples/healthcare-agent-orchestrator
 https://github.com/Azure-Samples/hello-azd
 https://github.com/Azure-Samples/agent-openai-python-banking-assistant
@@ -152,7 +146,6 @@ https://github.com/Azure-Samples/azure-openai-assistant-javascript
 https://github.com/Azure-Samples/llama-index-javascript
 https://github.com/Azure-Samples/llama-index-python
 https://github.com/Azure-Samples/serverless-chat-langchainjs
-https://github.com/Azure-Samples/expense-processor
 https://github.com/Azure-Samples/openai-chat-app-quickstart
 https://github.com/Azure-Samples/sovereign-chat-experience-starter
 https://github.com/Azure-Samples/spring-petclinic-java-mysql
