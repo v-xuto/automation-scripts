@@ -50,18 +50,18 @@ async function main(page) {
     await file.writeJson(resultFilePath, res)
     processing.addRepositories(processingFilePath, res.addList)
     await createIssuesForAddedRepositories(res.addList)
-    await updateProcessingFromIssues()
+    await updateProcessingFromIssues(res.addList)
     await file.removeTxtItems(oldFilePath, res.deleteList, "Remove deleted templates from old data")
 
 }
 
-const updateProcessingFromIssues = async () => {
+const updateProcessingFromIssues = async (addList) => {
     const updates = []
     const records = processing.readProcessing(processingFilePath)
 
     for (const record of records) {
-        if (res.addList.includes(record.repoLink)) continue
         const repository = record.repoLink
+        if (addList.includes(repository)) continue
         if (!['no reply', 'replyed', 'closed as not planned', 'closed as completed'].includes(record.state)) continue
         const match = repository.match(/^https?:\/\/github\.com\/([^/]+)\/([^/]+)\/?$/i)
         if (!match) continue
@@ -73,7 +73,7 @@ const updateProcessingFromIssues = async () => {
             '--repo', repo,
             '--state', 'all',
             '--limit', '20',
-            '--json', 'number,state,comments,stateReason,title'
+            '--json', 'number,state,comments,stateReason,title,url'
         ])
         const issues = JSON.parse(stdout)
         const issue = issues.find(item => item.title === '[Optional] Publish to azure samples browser')
@@ -84,7 +84,7 @@ const updateProcessingFromIssues = async () => {
             : issue.stateReason === 'COMPLETED'
                 ? 'closed as completed'
                 : 'closed as not planned'
-        updates.push({ repoLink: repository, id: issue.number, state })
+        updates.push({ repoLink: repository, IssueLink: issue.url, state })
     }
 
     processing.updateAutomaticStates(processingFilePath, updates)

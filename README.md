@@ -5,7 +5,7 @@ Second, the script is used to automate the comparison of templates in [Awesome A
 ## Key directory structure
 
 - data : Used to store relevant data and final results during code execution.
-    - AwesomeAzd-Processing.json : Tracks added repositories, issue IDs, and processing states. `pending fix` is manually managed; `published` is set by `task-L`.
+    - AwesomeAzd-Processing.json : Tracks sequential IDs, repository links, issue links, and processing states. `pending fix` is manually managed; `published` is set by `task-L`.
     - AwesomeAzd-LatestTemplates.txt : Saved the latest templates from [Awesome Azure Developer CLI](https://azure.github.io/awesome-azd/?tags=msft) . Writing them by executing the code.
     - AwesomeAzd-OldTemplates.txt : Used to save the template from the last execution of [Awesome Azure Developer CLI](https://azure.github.io/awesome-azd/?tags=msft). The template can be written by executing the code or entered manually.
     - AwesomeAzd-CompareResult.json : Saved the newly added and deleted templates from [Awesome Azure Developer CLI](https://azure.github.io/awesome-azd/?tags=msft). Writing them by executing the code.

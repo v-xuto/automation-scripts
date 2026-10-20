@@ -28,14 +28,20 @@ const normalizeRepo = (repoLink) => repoLink.trim().replace(/\/$/, '').toLowerCa
 const addRepositories = (filePath, repositories) => {
     const records = readProcessing(filePath)
     const byRepo = new Map(records.map(record => [normalizeRepo(record.repoLink), record]))
+    let nextId = records.reduce((maxId, record) => Math.max(maxId, Number(record.id) || 0), 0) + 1
 
     for (const repoLink of repositories) {
         const key = normalizeRepo(repoLink)
         if (!byRepo.has(key)) {
-            const record = { id: null, repoLink: repoLink.trim(), state: 'no reply' }
+            const record = { id: nextId++, repoLink: repoLink.trim(), IssueLink: '', state: 'no reply' }
             records.push(record)
             byRepo.set(key, record)
         }
+    }
+
+    for (let index = 0; index < records.length; index++) {
+        records[index].id = index + 1
+        if (!Object.hasOwn(records[index], 'IssueLink')) records[index].IssueLink = ''
     }
 
     writeProcessing(filePath, records)
@@ -53,7 +59,7 @@ const updateAutomaticStates = (filePath, updates) => {
 
         const update = byRepo.get(normalizeRepo(record.repoLink))
         if (update) {
-            record.id = update.id
+            record.IssueLink = update.IssueLink
             record.state = update.state
         }
     }
