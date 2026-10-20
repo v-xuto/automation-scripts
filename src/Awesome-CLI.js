@@ -1,15 +1,20 @@
 const { Run, COLOR } = require('../utils/base')
 const auto = require('../utils/automation')
 const file = require('../utils/file')
+const processing = require('../utils/processing')
 const fs = require('fs');
+const path = require('path');
+const { execFile } = require('child_process');
+const { promisify } = require('util');
 
-
+const execFileAsync = promisify(execFile);
 
 require('dotenv').config();
 
 const oldFilePath = process.env.Awesome_CLI_oldFilePath
 const newFilePath = process.env.Awesome_CLI_newFilePath
 const resultFilePath = process.env.Awesome_CLI_result
+const processingFilePath = process.env.Awesome_CLI_processing
 const url = process.env.Awesome_CLI_URL
 
 async function main(page) {
@@ -43,8 +48,91 @@ async function main(page) {
     let res = await file.compare(oldFilePath, newFilePath)
 
     await file.writeJson(resultFilePath, res)
+    processing.addRepositories(processingFilePath, res.addList)
+    await createIssuesForAddedRepositories(res.addList)
+    await updateProcessingFromIssues()
     await file.removeTxtItems(oldFilePath, res.deleteList, "Remove deleted templates from old data")
 
+}
+
+const updateProcessingFromIssues = async () => {
+    const updates = []
+    const records = processing.readProcessing(processingFilePath)
+
+    for (const record of records) {
+        if (res.addList.includes(record.repoLink)) continue
+        const repository = record.repoLink
+        if (!['no reply', 'replyed', 'closed as not planned', 'closed as completed'].includes(record.state)) continue
+        const match = repository.match(/^https?:\/\/github\.com\/([^/]+)\/([^/]+)\/?$/i)
+        if (!match) continue
+
+        const [, owner, name] = match
+        const repo = `${owner}/${name}`
+        const { stdout } = await execFileAsync('gh', [
+            'issue', 'list',
+            '--repo', repo,
+            '--state', 'all',
+            '--limit', '20',
+            '--json', 'number,state,comments,stateReason,title'
+        ])
+        const issues = JSON.parse(stdout)
+        const issue = issues.find(item => item.title === '[Optional] Publish to azure samples browser')
+        if (!issue) continue
+
+        let state = issue.state === 'OPEN'
+            ? (issue.comments > 0 ? 'replyed' : 'no reply')
+            : issue.stateReason === 'COMPLETED'
+                ? 'closed as completed'
+                : 'closed as not planned'
+        updates.push({ repoLink: repository, id: issue.number, state })
+    }
+
+    processing.updateAutomaticStates(processingFilePath, updates)
+}
+
+const createIssuesForAddedRepositories = async (repositories) => {
+    const commentPath = path.join(__dirname, 'comment.md')
+    const commentTemplate = fs.readFileSync(commentPath, 'utf8')
+    const titleMatch = commentTemplate.match(/^## title\s*\r?\n\s*\r?\n([^\r\n]+)/m)
+    const contentMatch = commentTemplate.match(/^## content\s*\r?\n\s*\r?\n([\s\S]*?)(?=^## |$)/m)
+    const title = titleMatch ? titleMatch[1].trim() : ''
+    const content = contentMatch ? contentMatch[1].trim() : ''
+
+    if (!title || !content) {
+        throw new Error(`Invalid issue template: ${commentPath}`)
+    }
+
+    for (const repository of repositories) {
+        const match = repository.match(/^https?:\/\/github\.com\/([^/]+)\/([^/]+)\/?$/i)
+        if (!match) {
+            console.warn(`Skip invalid GitHub repository URL: ${repository}`)
+            continue
+        }
+
+        const [, owner, name] = match
+        const repo = `${owner}/${name}`
+        const { stdout } = await execFileAsync('gh', [
+            'issue', 'list',
+            '--repo', repo,
+            '--state', 'all',
+            '--limit', '20',
+            '--json', 'title'
+        ])
+        const issues = JSON.parse(stdout)
+        if (issues.some(issue => issue.title === title)) {
+            console.log(COLOR.yellow, `Skip issue with existing title in ${repo}: ${title}`)
+            continue
+        }
+
+        const body = content.replace(/<arthur>/g, owner)
+        console.log(COLOR.cyan, `Creating issue in ${repo}`)
+        await execFileAsync('gh', [
+            'issue', 'create',
+            '--repo', repo,
+            '--title', title,
+            '--body', body
+        ])
+    }
 }
 
 Run(false, main)

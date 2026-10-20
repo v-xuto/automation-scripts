@@ -5,6 +5,7 @@ Second, the script is used to automate the comparison of templates in [Awesome A
 ## Key directory structure
 
 - data : Used to store relevant data and final results during code execution.
+    - AwesomeAzd-Processing.json : Tracks added repositories, issue IDs, and processing states. `pending fix` is manually managed; `published` is set by `task-L`.
     - AwesomeAzd-LatestTemplates.txt : Saved the latest templates from [Awesome Azure Developer CLI](https://azure.github.io/awesome-azd/?tags=msft) . Writing them by executing the code.
     - AwesomeAzd-OldTemplates.txt : Used to save the template from the last execution of [Awesome Azure Developer CLI](https://azure.github.io/awesome-azd/?tags=msft). The template can be written by executing the code or entered manually.
     - AwesomeAzd-CompareResult.json : Saved the newly added and deleted templates from [Awesome Azure Developer CLI](https://azure.github.io/awesome-azd/?tags=msft). Writing them by executing the code.
@@ -24,7 +25,7 @@ npm install
 npx playwright install
 ```
 ### Run code
-This instruction `npm run task-A` is used for automatic check Awesome Azure Developer CLI changes of templates, and output the new and deleted templates to the AwesomeAzd-CompareResult.json file in the data folder. After the comparison, entries in `deleteList` are automatically removed from `AwesomeAzd-OldTemplates.txt`.
+This instruction `npm run task-A` is used for automatic check Awesome Azure Developer CLI changes of templates, and output the new and deleted templates to the AwesomeAzd-CompareResult.json file in the data folder. After the comparison, entries in `deleteList` are automatically removed from `AwesomeAzd-OldTemplates.txt`. For each repository in `addList`, an issue is created with the title and content from `src/comment.md`; `<arthur>` is replaced with the repository owner's GitHub alias. Before creation, all existing issues are checked through the GitHub CLI (`gh`), and repositories with an issue having the same title are skipped.
 
 ```
 npm run task-A

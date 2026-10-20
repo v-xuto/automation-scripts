@@ -2,6 +2,7 @@
 const {Run,COLOR} = require('../utils/base')
 const auto = require('../utils/automation')
 const file = require('../utils/file')
+const processing = require('../utils/processing')
 const singleLog = require('single-line-log').stdout;
 
 
@@ -41,6 +42,9 @@ async function main(page) {
     
 
     await file.writeTxt(resultFilePath, res.addList)
+    const processingFilePath = process.env.Awesome_CLI_processing
+    const publishedRepositories = await file.readTxt(Learn_Website_FilePath)
+    processing.markPublished(processingFilePath, publishedRepositories)
 
 }
 
