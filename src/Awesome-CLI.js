@@ -90,6 +90,20 @@ const updateProcessingFromIssues = async (addList) => {
     processing.updateAutomaticStates(processingFilePath, updates)
 }
 
+const readmeContainsSamplePageType = async (repo) => {
+    try {
+        const { stdout } = await execFileAsync('gh', [
+            'api', `repos/${repo}/readme`,
+            '--jq', '.content'
+        ])
+        const readme = Buffer.from(stdout.trim(), 'base64').toString('utf8')
+        return /page_type:\s*sample/i.test(readme)
+    } catch (error) {
+        console.warn(`Unable to read README for ${repo}; continue issue processing: ${error.message}`)
+        return false
+    }
+}
+
 const createIssuesForAddedRepositories = async (repositories) => {
     const commentPath = path.join(__dirname, 'comment.md')
     const commentTemplate = fs.readFileSync(commentPath, 'utf8')
@@ -111,6 +125,11 @@ const createIssuesForAddedRepositories = async (repositories) => {
 
         const [, owner, name] = match
         const repo = `${owner}/${name}`
+        if (await readmeContainsSamplePageType(repo)) {
+            console.log(COLOR.yellow, `Skip issue because README contains page_type: sample: ${repo}`)
+            continue
+        }
+
         const { stdout } = await execFileAsync('gh', [
             'issue', 'list',
             '--repo', repo,
