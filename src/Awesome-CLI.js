@@ -62,9 +62,8 @@ async function main(page) {
     let res = await file.compare(oldFilePath, newFilePath)
 
     await file.writeJson(resultFilePath, res)
-    processing.addRepositories(processingFilePath, res.addList)
-    await createIssuesForAddedRepositories(res.addList)
-    await updateProcessingFromIssues(res.addList)
+    const createdRepositories = await createIssuesForAddedRepositories(res.addList)
+    await updateProcessingFromIssues(createdRepositories)
     await file.removeTxtItems(oldFilePath, res.deleteList, "Remove deleted templates from old data")
 
 }
@@ -119,6 +118,7 @@ const readmeContainsSamplePageType = async (repo) => {
 }
 
 const createIssuesForAddedRepositories = async (repositories) => {
+    const createdRepositories = []
     const commentPath = path.join(__dirname, 'comment.md')
     const commentTemplate = fs.readFileSync(commentPath, 'utf8')
     const titleMatch = commentTemplate.match(/^## title\s*\r?\n\s*\r?\n([^\r\n]+)/m)
@@ -159,13 +159,25 @@ const createIssuesForAddedRepositories = async (repositories) => {
 
         const body = content.replace(/<arthur>/g, owner)
         console.log(COLOR.cyan, `Creating issue in ${repo}`)
-        await execFileAsync('gh', [
+        const { stdout: createOutput } = await execFileAsync('gh', [
             'issue', 'create',
             '--repo', repo,
             '--title', title,
             '--body', body
         ])
+        const issueUrl = createOutput.match(/https:\/\/github\.com\/[^/\s]+\/[^/\s]+\/issues\/\d+/)?.[0]
+        if (!issueUrl) {
+            throw new Error(`Issue was created in ${repo}, but its URL could not be read from gh output`)
+        }
+
+        processing.addRepositories(processingFilePath, [repository])
+        processing.updateAutomaticStates(processingFilePath, [
+            { repoLink: repository, IssueLink: issueUrl, state: 'no reply' }
+        ])
+        createdRepositories.push(repository)
     }
+
+    return createdRepositories
 }
 
 Run(false, main)

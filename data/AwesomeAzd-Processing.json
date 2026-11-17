@@ -292,17 +292,5 @@
     "repoLink": "https://github.com/Azure-Samples/Microhack-Ask-Analyze-Act",
     "IssueLink": "https://github.com/Azure-Samples/Microhack-Ask-Analyze-Act/issues/7",
     "state": "no reply"
-  },
-  {
-    "id": 50,
-    "repoLink": "https://github.com/azure/agent-landing-zone",
-    "IssueLink": "",
-    "state": "no reply"
-  },
-  {
-    "id": 51,
-    "repoLink": "https://github.com/azure-samples/cosmic-food-rag-app",
-    "IssueLink": "",
-    "state": "no reply"
   }
 ]
