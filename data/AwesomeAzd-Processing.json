@@ -273,7 +273,7 @@
     "id": 46,
     "repoLink": "https://github.com/Azure-Samples/simple-foundry-hosted-agent-python-aigateway",
     "IssueLink": "https://github.com/Azure-Samples/simple-foundry-hosted-agent-python-aigateway/issues/10",
-    "state": "no reply"
+    "state": "closed as completed"
   },
   {
     "id": 47,
@@ -284,13 +284,25 @@
   {
     "id": 48,
     "repoLink": "https://github.com/Azure-Samples/expense-processor",
-    "IssueLink": "https://github.com/Azure-Samples/expense-processor/issues/3",
-    "state": "no reply"
+    "IssueLink": "https://github.com/Azure-Samples/hosted-skills-expense-processor/issues/12",
+    "state": "closed as not planned"
   },
   {
     "id": 49,
     "repoLink": "https://github.com/Azure-Samples/Microhack-Ask-Analyze-Act",
     "IssueLink": "https://github.com/Azure-Samples/Microhack-Ask-Analyze-Act/issues/7",
+    "state": "no reply"
+  },
+  {
+    "id": 50,
+    "repoLink": "https://github.com/azure/agent-landing-zone",
+    "IssueLink": "",
+    "state": "no reply"
+  },
+  {
+    "id": 51,
+    "repoLink": "https://github.com/azure-samples/cosmic-food-rag-app",
+    "IssueLink": "",
     "state": "no reply"
   }
 ]
