@@ -28,8 +28,8 @@ async function main(page) {
     // Wait for page to load completely
     await page.waitForLoadState('networkidle')
     
-    let querySelector = ".fui-Input__input"
-    let attribute = "value"
+    let querySelector = "code"
+    let attribute = ""
     
     // Add pagination functionality - for awesome-azd website pagination buttons
     // This selector may need to be adjusted based on the actual website pagination button structure
@@ -39,8 +39,22 @@ async function main(page) {
     
     let strList = await auto.getWebListByPaging(page, querySelector, attribute, pagingSelector)
 
+    const pageText = await page.locator('body').innerText()
+    const templateCountMatch = pageText.match(/\b\d+\s*[-–]\s*\d+\s+of\s+(\d+)\s+templates\b/i)
+    if (!templateCountMatch) {
+        throw new Error('Unable to determine the total template count from the catalog page')
+    }
+
+    const expectedTemplateCount = Number(templateCountMatch[1])
+    if (strList.length !== expectedTemplateCount) {
+        throw new Error(`Incomplete template crawl: expected ${expectedTemplateCount}, found ${strList.length}`)
+    }
 
     let rows = await trimStrList(strList)
+    if (rows.length !== expectedTemplateCount) {
+        throw new Error(`Invalid template commands: expected ${expectedTemplateCount}, found ${rows.length}`)
+    }
+
     await file.writeTxt(newFilePath, rows, "Save the new data")
 
     await file.formatFile(oldFilePath, "Filter the old data")
@@ -162,18 +176,14 @@ Run(false, main)
 const trimStrList = async (strList) => {
     let newList = []
     strList.forEach(str => {
-        str = str.replace("azd init -t", "").trim()
+        const match = str.trim().match(/^azd init -t\s+(\S+)\s*$/i)
+        if (!match) return
 
-        if (str.includes("/") && !str.endsWith("/")) {
-            str = 'https://github.com/' + str;
-        } else {
-            str = "https://github.com/Azure-Samples/" + str
-        }
-
-        if (str.endsWith("/")) {
-            str = str.slice(0, -("/".length))
-        }
-        newList.push(str)
+        const template = match[1]
+        const repository = template.includes('/')
+            ? template
+            : `Azure-Samples/${template}`
+        newList.push(`https://github.com/${repository}`)
     })
     return newList
 }
